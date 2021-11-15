@@ -1,17 +1,24 @@
+body{
+    margin: 0;
+}
+
 @media only screen and (min-width:500px) and (max-width:800px) {
     .navbar {
         display: flex;
         margin: auto;
-        padding: 30px;
         background-color: #FFD500;
         align-items: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
+        flex-direction: column;
+        width: 100vw;
     }
+
     .navbar>div>a {
         color: #000;
         text-decoration: none;
     }
 
+    /* .navbar>div{
+        padding: 2%;
+    } */
 }
-
-
