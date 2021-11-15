@@ -12,6 +12,7 @@ body{
         flex-direction: column;
         width: 100vw;
     }
+
     .navbar>div>a {
         color: #000;
         text-decoration: none;
