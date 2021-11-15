@@ -6,7 +6,7 @@
         align-items: center;
         justify-content: space-between;
     }
-    .navbar ul li {
+    .navbar {
         list-style: none;
         display: inline-block;
         margin: 0px 20px;
