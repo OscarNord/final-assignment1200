@@ -7,18 +7,27 @@ body{
         display: flex;
         margin: auto;
         background-color: #FFD500;
-        align-items: center;
+        align-items: stretch;
         /* justify-content: space-between; */
         flex-direction: column;
         width: 100vw;
+        text-align: center;
     }
 
-    .navbar>div>a {
+    .navbar>a {
         color: #000;
         text-decoration: none;
+        padding: 2%;
+        border: 1px solid;
+    }
+
+    .reflect-tekst p{
+        max-width: 70ch;
+        margin-left: 2%;
     }
 
     /* .navbar>div{
-        padding: 2%;
+        border: 1px solid;
+        
     } */
 }
