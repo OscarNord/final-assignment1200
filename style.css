@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    overflow-x: hidden;
 }
 
 @media only screen and (min-width:500px) and (max-width:800px) {
@@ -21,11 +22,12 @@ body {
     }
     .reflect-tekst p {
         max-width: 70ch;
-        color: white;
+        color: black;
     }
 
     .reflect-tekst{
-        background-color: black; 
+        background: rgb(247,247,243);
+        background: linear-gradient(0deg, rgba(247,247,243,1) 0%, rgba(255,213,0,1) 92%);
         border-radius: 5px;
         margin: 0 2%;
         padding: 1% 0;
@@ -33,7 +35,7 @@ body {
     }
 
     .reflect-tekst > h2{
-        color: white;
+        color: black;
     }
 
     #reflect-tekst_2{
@@ -51,10 +53,6 @@ body {
 .item2{background:white;}
 
 
-
-
-
-
 .container{
     display: grid;
     font-size: 15px;
@@ -63,7 +61,7 @@ body {
     min-height: 500px;
 }
 }
-    ul {
+
+ul {
         list-style: none;
     }
-}
