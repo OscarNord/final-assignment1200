@@ -30,4 +30,23 @@ body{
         border: 1px solid;
         
     } */
+
+
+.item1{background: white;
+    height: 600px;
+}
+.item2{background:white;}
+
+
+
+
+
+
+.container{
+    display: grid;
+    font-size: 15px;
+    width: 100%;
+    background: LightGray;
+    min-height: 500px;
+}
 }
