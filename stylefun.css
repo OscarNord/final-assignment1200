@@ -1,46 +1,59 @@
-@media only screen and (min-width:500px) and (max-width:800px) {
 
-    #navbar {
-        width: 100%;
-        margin: auto;
-        padding: 50px 100px 100px 100px;
-        display: flex;
-        justify-content: space-between;
-        text-align: center;
-    }
-    
-    #navbar > ul > li {
-        list-style: none;
-        margin: 30px 30px; 
-        background: turquoise;
-        
-    }
-    
-    #navbar > ul > li > a {
-        text-decoration: none;
-        text-transform: uppercase;
-        color: black;
-    }
-    
-    #navbar > ul > li::after {
-        content: '';
-        height: 2px;
-        width: 100%;
-        background: turquoise;
-        position: absolute;
-        left: 0px;
-        bottom: -10px;
-        transition: 0.5s;
-    }
-    
-    #navbar > ul > li:hover::after {
-        width: 100%;
-    }
-
-
-
-
+* {
+    border:0px;
+    padding: 0px;
+    box-sizing: border-box;
 
 }
 
+html {
+    font-size: 25px;
+    /* font-family */
+    color: aliceblue;
 
+}
+
+a {
+ text-decoration: none;
+ color: aliceblue;   
+}
+
+.midcontainer {
+    min-height: 95vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#midpart {
+    background-image: url(./img1/oslo-by-night.jpeg);
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+#midpart::after {
+    content: '';
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: black ;
+    opacity: .7;
+    z-index: -1;
+}
+
+#midpart h1 {
+    display: block;
+    width: fit-content;
+    font-size: 2rem;
+    position: relative;
+    color: white;
+}
+
+#midpart.midcontainer {
+    display: inline-block;
+    padding: ;
+}
