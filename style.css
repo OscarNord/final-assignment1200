@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 
@@ -13,19 +13,32 @@ body{
         width: 100vw;
         text-align: center;
     }
-
     .navbar>a {
         color: #000;
         text-decoration: none;
         padding: 2%;
         border: 1px solid;
     }
-
-    .reflect-tekst p{
+    .reflect-tekst p {
         max-width: 70ch;
-        margin-left: 2%;
+        color: white;
     }
 
+    .reflect-tekst{
+        background-color: black; 
+        border-radius: 5px;
+        margin: 0 2%;
+        padding: 1% 0;
+        padding-left: 2%;
+    }
+
+    .reflect-tekst > h2{
+        color: white;
+    }
+
+    #reflect-tekst_2{
+        margin-top: 2%;
+    }
     /* .navbar>div{
         border: 1px solid;
         
@@ -49,4 +62,8 @@ body{
     background: LightGray;
     min-height: 500px;
 }
+}
+    ul {
+        list-style: none;
+    }
 }
