@@ -45,25 +45,27 @@ body {
     } */
 
 
-.item1{background: white;
-    height: 600px;
+.teksten{
+    background:black;
+    font-size:15px;
+    padding: 2%;
+    margin: 0 2%;
+    
 }
-.item2{background:white;}
+
+    .teksten>p1{
+        color: white;
+    }
+
+    .teksten>p2{
+        color: white;
+    }
+
+    #overskrift{
+        font-size: 25px;
+    }
 
 
-
-
-
-
-.container{
-    display: grid;
-    font-size: 15px;
-    width: 100%;
-    background: LightGray;
-    min-height: 500px;
-}
-}
     ul {
         list-style: none;
     }
-}
