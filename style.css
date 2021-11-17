@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
 }
 
@@ -13,19 +13,16 @@ body{
         width: 100vw;
         text-align: center;
     }
-
     .navbar>a {
         color: #000;
         text-decoration: none;
         padding: 2%;
         border: 1px solid;
     }
-
-    .reflect-tekst p{
+    .reflect-tekst p {
         max-width: 70ch;
         margin-left: 2%;
     }
-
     /* .navbar>div{
         border: 1px solid;
         
