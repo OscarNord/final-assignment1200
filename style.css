@@ -24,50 +24,61 @@ body {
         max-width: 70ch;
         color: black;
     }
-
-    .reflect-tekst{
-        background: rgb(247,247,243);
-        background: linear-gradient(0deg, rgba(247,247,243,1) 0%, rgba(255,213,0,1) 92%);
+    .reflect-tekst {
+        background-color: black;
         border-radius: 5px;
         margin: 0 2%;
         padding: 1% 0;
         padding-left: 2%;
     }
-
-    .reflect-tekst > h2{
-        color: black;
+    .reflect-tekst>h2 {
+        color: white;
     }
-
-    #reflect-tekst_2{
+    #reflect-tekst_2 {
         margin-top: 2%;
     }
     /* .navbar>div{
         border: 1px solid;
         
     } */
-
-
-.teksten{
-    background:black;
-    font-size:15px;
-    padding: 2%;
-    margin: 0 2%;
-    
-}
-
-    .teksten>p1{
+    .teksten {
+        background: black;
+        font-size: 15px;
+        padding: 2%;
+        margin: 0 2%;
+    }
+    .teksten>p1 {
         color: white;
     }
-
-    .teksten>p2{
+    .teksten>p2 {
         color: white;
     }
-
-    #overskrift{
+    #overskrift {
         font-size: 25px;
     }
-
-
     ul {
         list-style: none;
     }
+    header {
+        background-color: #FFD500;
+    }
+    h1,
+    h2 {
+        margin: 0;
+    }
+    #innhold {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+    }
+    footer {
+        background-color: whitesmoke;
+    }
+    footer>ul {
+        margin: 0;
+        padding: 2%;
+    }
+    p {
+        margin: 0;
+        padding: 2%;
+    }
+}
