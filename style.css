@@ -46,17 +46,18 @@ body {
 .teksten{
     background:black;
     font-size:15px;
-    padding: 2%;
+    padding: 5%;
     margin: 0 2%;
     padding-left: 2%;
     
 }
 
-    .teksten>p1{
-        color: white;
+    .teksten>p{
+background-color: #f39f86;
+background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
     }
-    .teksten>p2 {
-        color: white;
+  
+        
     }
     #overskrift {
         font-size: 25px;
