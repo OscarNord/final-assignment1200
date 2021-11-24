@@ -22,23 +22,19 @@ body {
     }
     .reflect-tekst p {
         max-width: 70ch;
-        color: black;
+        color: white;
     }
-
-    .reflect-tekst{
-        background: rgb(247,247,243);
-        background: linear-gradient(0deg, rgba(247,247,243,1) 0%, rgba(255,213,0,1) 92%);
+    .reflect-tekst {
+        background-color: black;
         border-radius: 5px;
         margin: 0 2%;
         padding: 1% 0;
         padding-left: 2%;
     }
-
-    .reflect-tekst > h2{
-        color: black;
+    .reflect-tekst>h2 {
+        color: white;
     }
-
-    #reflect-tekst_2{
+    #reflect-tekst_2 {
         margin-top: 2%;
     }
     /* .navbar>div{
@@ -47,21 +43,61 @@ body {
     } */
 
 
-.item1{background: white;
-    height: 600px;
-}
-.item2{background:white;}
-
-
-.container{
-    display: grid;
-    font-size: 15px;
-    width: 100%;
-    background: LightGray;
-    min-height: 500px;
-}
+.teksten{
+    background:black;
+    font-size:15px;
+    padding: 5%;
+    margin: 0 2%;
+    padding-left: 2%;
+    
 }
 
-ul {
+.teksten>h2{
+    color: white;
+}
+    .teksten>p{
+background-color: #f39f86;
+background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    }
+
+    #tekst2{
+        margin-top: 3%;
+    }
+  
+        
+    }
+    #overskrift {
+        font-size: 25px;
+    }
+    ul {
         list-style: none;
     }
+    header {
+        background-color: #FFD500;
+    }
+    h1,
+    h2 {
+        margin: 0;
+    }
+    #innhold {
+        background: rgb(2, 0, 36);
+        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+    }
+    footer {
+        background-color: whitesmoke;
+    }
+    footer>ul {
+        margin: 0;
+        padding: 2%;
+    }
+    p {
+        margin: 0;
+        padding: 2%;
+    }
+
+
+
+
+
+    
+    
