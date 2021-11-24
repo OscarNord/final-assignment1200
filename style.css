@@ -85,6 +85,7 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,226,82,1) 10
     .teksten>h2 {
         color: white;
     }
+
     .teksten {
         background: rgb(2, 0, 36);
         background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
@@ -431,3 +432,5 @@ p {
     background-position-y: center;
     height: 200px;
 }
+
+/* Hahahahaha */
