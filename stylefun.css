@@ -8,41 +8,45 @@
 
 html {
     font-size: 25px;
-    /* font-family */
-    color: aliceblue;
+    /* font-family from google fonts */
+    color: black;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
 
 }
 
 a {
  text-decoration: none;
- color: aliceblue;   
+ color: white;   
 }
 
 .midcontainer {
-    min-height: 95vh;
-    width: 100%;
     display: flex;
+    min-height: 100vh;
+    width: 100%;
     align-items: center;
     justify-content: center;
 }
 
 #midpart {
-    background-image: url(./img1/Barcode.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.527),
+    rgba(0, 0, 0, 0.5)) , url(./img1/Barcode.jpeg);
     background-position: top center;
     background-size: cover;
     position: relative;
+    z-index: 1;
+    
 }
 
 #midpart::after {
     content: '';
-    left: 0px;
     right: 0px;
+    left: 0px;
     position: absolute;
     height: 100%;
     width: 100%;
-    background-color: grey ;
-    opacity: .7;
-    z-index: -1;
+    background-color: whitesmoke;
+    opacity: .1;
 }
 
 #midpart h1 {
@@ -50,14 +54,85 @@ a {
     width: fit-content;
     font-size: 2rem;
     position: relative;
-    color: white;
+    color: transparent;
+    animation: hoved_tekst 1s ease forwards;
+    animation-delay: 1.5s;
 }
 
-#midpart.visit {
-    display: inline-block;
-    padding: 15px 30px;
-    color: turquoise;
-    background-color: transparent;
-    border: 4px solid turquoise;
-    font-size: 3rem;
+#midpart h1 :nth-child(1){
+    animation-delay: 1s;
+}
+
+#midpart h1 :nth-child(2){
+    animation-delay: 2.2s;
+}
+ 
+
+#midpart h1 span {
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    top: 0;
+    left: 0px;
+    background-color: turquoise;
+    animation: hoved_tekst_box 1s ease;
+    animation-delay: 1s;
+    
+}
+
+#midpart h1:nth-child(1) span{
+    animation-delay: 1s;
+}
+#midpart h1:nth-child(2) span{
+    animation-delay: 1.5s;
+}
+
+
+#midpart .Visit {
+display: inline-block;
+padding: 12px 25px;
+color: turquoise;
+background-color: transparent;
+border: 3px solid turquoise;
+border-radius: 25px;
+font-size: 15px;
+text-transform: uppercase;
+letter-spacing: 1px;
+margin-top: 20px;
+transition: .5s ease;
+transition-property: background-color, color;
+}
+
+#midpart .Visit:hover {
+    color: white;
+    background-color: turquoise;
+}
+
+/* hovedside tekst animasjon */
+
+@keyframes hoved_tekst_box {
+    50%{
+        left: 0; 
+        width: 100%;  
+    }
+    100%{
+        left: 100%;
+        width: 0;
+    }
+}
+
+@keyframes hoved_tekst {
+    100%{
+        color: white;
+}
+}
+
+/* Slutt av hovedside tekst animasjon */
+
+   
+
+.Operabilde {
+    width: 50%;
+    opacity: .8;
+    z-index: -1;
 }
