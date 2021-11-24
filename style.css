@@ -13,7 +13,6 @@ body {
         flex-direction: column;
         width: 100vw;
         text-align: center;
-        padding-bottom: 20px;
         z-index: 3s;
     }
     #reflect_nav {
@@ -189,7 +188,8 @@ body {
         background-size: cover;
         color: black;
         text-align: center;
-        font-size: xx-large;
+        text-decoration: underline;
+        font-size: x-large;
         background-position-y: center;
         height: 200px;
     }
