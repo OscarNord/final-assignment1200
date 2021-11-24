@@ -37,7 +37,8 @@ body {
         max-width: 70ch;
     }
     .reflect-tekst {
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+        background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,82,1) 0%);
         color: black;
         border-radius: 5px;
         margin: 0 2%;
@@ -46,6 +47,8 @@ body {
     }
     #reflect-tekst_2 {
         margin-top: 2%;
+        background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,82,1) 50%);
     }
     .navbar>div {
         border: 1px solid;
@@ -57,7 +60,13 @@ body {
     #reflect-tekst_2 {
         margin-top: 25px;
     }
+    .Tanker_Bilde{
+        margin-top: 10px;
+        border-radius: 5px;
+    }
     #reflect_footer {
+        background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,226,82,1) 100%);
         padding: 0;
         margin: 25px 10px 0;
         border-radius: 5px;
@@ -72,17 +81,7 @@ body {
     .teksten>h2 {
         color: white;
     }
-    .teksten>p {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    .teksten {
-        background: black;
-        font-size: 15px;
-        padding: 5%;
-        margin: 0 2%;
-        padding-left: 2%;
-    }
+    
     .teksten>h2 {
         color: white;
     }
