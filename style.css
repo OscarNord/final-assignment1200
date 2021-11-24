@@ -13,12 +13,11 @@ body {
         flex-direction: column;
         width: 100vw;
         text-align: center;
-        padding-bottom: 50px;
+        padding-bottom: 20px;
     }
-    #reflect_nav{
+    #reflect_nav {
         padding: 0;
     }
-    
     .navbar>a {
         color: #000;
         text-decoration: none;
@@ -43,18 +42,17 @@ body {
     #reflect-tekst_2 {
         margin-top: 2%;
     }
-    .navbar>div{
+    .navbar>div {
         border: 1px solid;
-        
     }
-    .div_reflect{
+    .div_reflect {
         background-image: url(/img1/Oslomet\ .jpeg);
         height: 100%;
     }
-    #reflect-tekst_2{
+    #reflect-tekst_2 {
         margin-top: 25px;
     }
-    #reflect_footer{
+    #reflect_footer {
         padding: 0;
         background-color: black;
         color: white;
@@ -63,77 +61,54 @@ body {
         background-image: url(/img1/Oslomet\ .jpeg);
         position: absolute;
         z-index: -1; */
-    }
-     */
-    .teksten {
-        background: black;
-        font-size: 15px;
-        padding: 5%;
-        margin: 0 2%;
-        padding-left: 2%;
-    }
-    .teksten>h2 {
-        color: white;
-    }
-    .teksten>p {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-  
+}
 
-.teksten{
+*/ .teksten {
+    background: black;
+    font-size: 15px;
+    padding: 5%;
+    margin: 0 2%;
+    padding-left: 2%;
+}
+
+.teksten>h2 {
+    color: white;
+}
+
+.teksten>p {
     background: rgb(2, 0, 36);
     background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    font-size:15px;
+}
+
+.teksten {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+    font-size: 15px;
     margin: 0 2%;
     padding: 1% 0;
     padding-left: 2%;
 }
 
-.teksten>h2{
+.teksten>h2 {
     color: black;
 }
 
-.teksten>p{
+.teksten>p {
     max-width: 70ch;
 }
 
-
-#link{
+#link {
     max-width: 70ch;
-  
 }
 
+#overskrift {
+    font-size: 25px;
+}
 
+ul {
+    list-style: none;
+}
 
-    #overskrift {
-        font-size: 25px;
-    }
-    ul {
-        list-style: none;
-    }
-    header {
-        background-color: #FFD500;
-    }
-    h1,
-    h2 {
-        margin: 0;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
 header {
     background-color: #FFD500;
 }
@@ -149,7 +124,6 @@ h2 {
 }
 
 footer {
-    padding-top: 50px;
     background-color: whitesmoke;
 }
 
@@ -161,4 +135,34 @@ footer>ul {
 p {
     margin: 0;
     padding: 2%;
+}
+
+header {
+    background-color: #FFD500;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 1%;
+}
+
+#innhold {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+}
+
+footer {
+    padding-top: 20px;
+    background-color: whitesmoke;
+}
+
+footer>ul {
+    margin: 0;
+    padding: 2%;
+}
+
+p {
+    margin: 0;
+    padding: 1%;
 }
