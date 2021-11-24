@@ -79,9 +79,13 @@ body {
 }
 
 
-.link{
-    color:black;
+#link{
+    max-width: 70ch;
+  
+    width:1000px;
 }
+
+
 
     #overskrift {
         font-size: 25px;
