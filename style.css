@@ -56,8 +56,8 @@ body {
     
     
     .teksten>p {
-        background-color: #f39f86;
-        background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+        background: rgb(2, 0, 36);
+        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
     }
   
 
@@ -82,7 +82,6 @@ body {
 #link{
     max-width: 70ch;
   
-    width:1000px;
 }
 
 
