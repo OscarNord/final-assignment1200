@@ -13,6 +13,7 @@ body {
         flex-direction: column;
         width: 100vw;
         text-align: center;
+        padding-bottom: 50px;
     }
     .navbar>a {
         color: #000;
@@ -41,63 +42,58 @@ body {
         border: 1px solid;
         
     } */
-
-
-.teksten{
-    background:black;
-    font-size:15px;
-    padding: 5%;
-    margin: 0 2%;
-    padding-left: 2%;
-    
-}
-
-.teksten>h2{
-    color: white;
-}
-    .teksten>p{
-background-color: #f39f86;
-background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    .teksten {
+        background: black;
+        font-size: 15px;
+        padding: 5%;
+        margin: 0 2%;
+        padding-left: 2%;
     }
-
-    #tekst2{
+    .teksten>h2 {
+        color: white;
+    }
+    .teksten>p {
+        background-color: #f39f86;
+        background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
+    }
+    #tekst2 {
         margin-top: 3%;
     }
-  
-        
-    }
-    #overskrift {
-        font-size: 25px;
-    }
-    ul {
-        list-style: none;
-    }
-    header {
-        background-color: #FFD500;
-    }
-    h1,
-    h2 {
-        margin: 0;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
+}
 
+#overskrift {
+    font-size: 25px;
+}
 
+ul {
+    list-style: none;
+}
 
+header {
+    background-color: #FFD500;
+}
 
+h1,
+h2 {
+    margin: 0;
+}
 
-    
-    
+#innhold {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+}
+
+footer {
+    padding-top: 50px;
+    background-color: whitesmoke;
+}
+
+footer>ul {
+    margin: 0;
+    padding: 2%;
+}
+
+p {
+    margin: 0;
+    padding: 2%;
+}
