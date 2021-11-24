@@ -63,22 +63,13 @@ body {
         z-index: -1; */
 }
 
-*/ .teksten {
-    background: black;
-    font-size: 15px;
-    padding: 5%;
-    margin: 0 2%;
-    padding-left: 2%;
-}
+*/ 
+
 
 .teksten>h2 {
     color: white;
 }
 
-.teksten>p {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-}
 
 .teksten {
     background: rgb(2, 0, 36);
