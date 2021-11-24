@@ -14,11 +14,16 @@ body {
         width: 100vw;
         text-align: center;
     }
+    
     .navbar>a {
         color: #000;
         text-decoration: none;
         padding: 2%;
         border: 1px solid;
+    }
+    .reflect_header{
+        background-color: black;
+        color: white;
     }
     .reflect-tekst p {
         max-width: 70ch;
@@ -37,10 +42,15 @@ body {
     #reflect-tekst_2 {
         margin-top: 2%;
     }
-    /* .navbar>div{
+    .navbar>div{
         border: 1px solid;
         
-    } */
+    }
+    .reflect_bilde{
+        background-image: url(/img1/Oslomet\ .jpeg);
+        position: absolute;
+        z-index: -1;
+    }
 
 
 .teksten{
@@ -63,8 +73,7 @@ background-image: linear-gradient(315deg, #f39f86 0%, #f9d976 74%);
     #tekst2{
         margin-top: 3%;
     }
-  
-        
+
     }
     #overskrift {
         font-size: 25px;
