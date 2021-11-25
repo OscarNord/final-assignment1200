@@ -92,6 +92,7 @@ body {
 #overskrift3{
     font-size:20px;
     color:black;
+
     
     
     
@@ -120,10 +121,6 @@ body {
     margin-right:2%;
 }
 
-#boks1 {
-    flex: 1;
-    margin-right: 5%;
-}
 
 .teksten{
 font-family: sans-serif;
@@ -152,6 +149,7 @@ grid-template-areas:
     grid-area:boks1;
     border: 1px solid black;
     border-radius: 5px;
+    margin-right:5%;
 }
 
 #boks2{
@@ -159,6 +157,7 @@ grid-template-areas:
     border: 1px solid black;
     border-radius: 5px;
     margin-right: 20px;
+    
 }
 
 #boks3{
@@ -167,12 +166,9 @@ grid-template-areas:
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 20px;
+
 }
 
-#boks3 {
-    flex: 1;
-    margin-right: 5%;
-}
 
 
 footer{
@@ -196,6 +192,7 @@ footer{
 
 #overskrift {
     font-size: 25px;
+    text-align: center;
 }
 
 header {
@@ -295,8 +292,17 @@ p {
 }
 
 #innholdAccess {
+    display: flex;
     background: rgb(255, 213, 0);
     background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
+    flex-direction: column;
+}
+
+img {
+    border-radius: 20px;
+    max-width: 40vw;
+    max-height: 10vw;
+    margin: auto;
 }
 
 @media only screen and (max-width:800px) {
@@ -316,10 +322,6 @@ p {
     }
     #reflect_nav {
         padding: 0;
-    }
-    img {
-        width: 40%;
-        border-radius: 60px;
     }
     .navbar>a {
         color: #000;
@@ -486,3 +488,4 @@ footer{
         background-position-y: center;
         height: 200px;
     }
+}
