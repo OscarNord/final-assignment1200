@@ -26,7 +26,7 @@ body {
 .navbar>a {
     color: #000;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 2.5vw;
     /* padding: 2%; */
 }
 
@@ -53,6 +53,7 @@ body {
     padding: 1% 0;
     padding-left: 2%;
     grid-area: content;
+    margin: 0 30px;
 }
 
 #reflect-tekst_2 {
