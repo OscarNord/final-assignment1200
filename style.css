@@ -224,8 +224,17 @@ p {
 }
 
 #innholdAccess {
+    display: flex;
     background: rgb(255, 213, 0);
     background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
+    flex-direction: column;
+}
+
+img {
+    border-radius: 20px;
+    max-width: 40vw;
+    max-height: 10vw;
+    margin: auto;
 }
 
 @media only screen and (max-width:800px) {
@@ -244,10 +253,6 @@ p {
     }
     #reflect_nav {
         padding: 0;
-    }
-    img {
-        width: 40%;
-        border-radius: 60px;
     }
     .navbar>a {
         color: #000;
