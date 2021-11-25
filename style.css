@@ -1,13 +1,11 @@
 body {
     margin: 0;
     overflow-x: hidden;
-    font-family: sans-serif;
 }
 
 
 /*
     HERIFRA OG NED ER DET BARE FOR LAPTOP
-
 */
 
 .navbar {
@@ -67,12 +65,7 @@ body {
     background-image: url(../img1/Oslomet\ .jpeg);
     height: 100%;
     display: grid;
-    grid-template-areas: 
-    "header header" 
-    "content content2" 
-    "content content2" 
-    "footer footer"
-    ;
+    grid-template-areas: "header header" "content content2" "content content2" "footer footer";
 }
 
 #reflect_footer {
@@ -82,69 +75,69 @@ body {
     grid-area: footer;
 }
 
-
-
-
-#h2{
-    font-size:25px;
-    color:black;
+.teksten>h2 {
+    color: black;
 }
 
-#h3{
-    font-size:20px;
-    color:black;
+.teksten>h3 {
+    color: black;
 }
 
-#h4{
-    font-size:20px;
-    color:black;
+.teksten>h4 {
+    color: black;
+    font-size: 20px;
 }
 
-#h5{
-    font-size:20px;
-    color:black;
-    margin-bottom: 0%;
+.teksten {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
+    font-size: 15px;
+    margin: 0%;
+    padding: 1% 0;
+    padding-left: 2%;
 }
 
-
-.teksten{
-display: block;
-flex-direction: row;
-justify-content:space-between;
-background: rgb(255, 213, 0);
-background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
-font-size: 15px;
-margin: 0%;
-padding: 1% 0;
-padding-left: 2%;
+#boks1 {
+    flex: 1;
+    margin-right: 5%;
 }
 
+#boks2 {
+    flex: 1;
+    margin-right: 5%;
+}
+
+#boks3 {
+    flex: 1;
+    margin-right: 5%;
+}
 
 .teksten>p {
     max-width: 70ch;
 }
 
 #link {
-   font-size: 18px;
-   margin-top:5%;
+    max-width: 70ch;
 }
-
 
 #overskrift {
     font-size: 25px;
-    text-align:center;
 }
 
-header {
-    background-color: #FFD500;
+#overskrift {
+    font-size: 25px;
 }
-
 
 ul {
     list-style: none;
 }
 
-
+header {
+    background-color: #FFD500;
+}
 
 h1,
 h2 {
@@ -153,6 +146,7 @@ h2 {
 }
 
 #innhold {
+    display: flex;
     flex-direction: row;
     background: rgb(255, 213, 0);
     background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
@@ -162,21 +156,16 @@ h2 {
     padding-bottom: 5vh;
 }
 
-#innhold>div {
-    padding: 1%;
-    text-align: center;
-}
-
 #box1 {
-    grid-area: box1;
+    flex: 1;
 }
 
 #box2 {
-    grid-area: box2;
+    flex: 1;
 }
 
 #box3 {
-    grid-area: box3;
+    flex: 1;
 }
 
 footer {
@@ -202,11 +191,6 @@ p {
 
 /* all css under her er bare for forsiden */
 
-#gridBox1 {
-    display: grid;
-    grid-template-areas: "header" "header" "header" "box1" "box2" "box3" "footer" "footer" "footer";
-}
-
 #header1 {
     background-image: url(../img1/p35.jpeg);
     background-size: cover;
@@ -216,16 +200,6 @@ p {
     font-size: x-large;
     background-position-y: center;
     height: 50vh;
-    justify-content: center;
-    grid-area: header;
-}
-
-#header1>div {
-    background-color: rgba(255, 255, 255, 0.5);
-}
-
-#footer1 {
-    grid-area: footer;
 }
 
 @media only screen and (max-width:800px) {
@@ -287,11 +261,7 @@ p {
         background-image: url(/img1/Oslomet\ .jpeg);
         height: 100%;
         display: grid;
-        grid-template-areas: 
-        "header" 
-        "content"
-        "content2" 
-        "footer";
+        grid-template-areas: "header" "content" "content2" "footer";
     }
     #reflect_footer {
         padding: 0;
@@ -300,18 +270,13 @@ p {
         grid-area: footer;
     }
     .teksten>h2 {
-        color:black;
-        font-size:20px;
+        color: black;
     }
-
-    .teksten>h3{
-        color:black;
-        font-size:20px;
+    .teksten>h3 {
+        color: black;
     }
-    
-    .teksten>h4{
-        color:black;
-        font-size:20px;
+    .teksten>h4 {
+        color: black;
     }
     .teksten {
         background: rgb(255, 213, 0);
@@ -331,7 +296,9 @@ p {
     #overskrift {
         font-size: 25px;
     }
- 
+    #overskrift {
+        font-size: 25px;
+    }
     ul {
         list-style: none;
     }
