@@ -3,183 +3,11 @@ body {
     overflow-x: hidden;
 }
 
-<<<<<<< Updated upstream
 
 /*
     HERIFRA OG NED ER DET BARE FOR LAPTOP
 
 */
-=======
-@media only screen and (min-width:500px) and (max-width:800px) {
-    .navbar {
-        display: flex;
-        margin: auto;
-        background-color: #FFD500;
-        align-items: stretch;
-        /* justify-content: space-between; */
-        flex-direction: column;
-        width: 100vw;
-        text-align: center;
-        z-index: 3s;
-    }
-    #reflect_nav {
-        padding: 0;
-    }
-    .navbar>a {
-        color: #000;
-        text-decoration: none;
-        padding: 2%;
-        border: 1px solid;
-    }
-    .reflect_header {
-        margin: 0 10px 10px;
-        padding: 15px 10px 0;
-        border-radius: 5px;
-        text-align: center;
-        background-color: rgba(255, 255, 255, 0.5);
-        font-size: x-large;
-        text-decoration: underline;
-    }
-    .reflect-tekst p {
-        max-width: 70ch;
-    }
-    .reflect-tekst {
-        background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,82,1) 0%);
-        color: black;
-        border-radius: 5px;
-        margin: 0 2%;
-        padding: 1% 0;
-        padding-left: 2%;
-    }
-    #reflect-tekst_2 {
-        margin-top: 2%;
-        background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,226,82,1) 50%);
-    }
-    .navbar>div {
-        border: 1px solid;
-    }
-    .div_reflect {
-        background-image: url(/img1/Oslomet\ .jpeg);
-        height: 100%;
-    }
-    #reflect-tekst_2 {
-        margin-top: 25px;
-    }
-    .Tanker_Bilde{
-        margin-top: 10px;
-        border-radius: 5px;
-    }
-    #reflect_footer {
-        background: rgb(255,255,255);
-background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,226,82,1) 100%);
-        padding: 0;
-        margin: 25px 10px 0;
-        border-radius: 5px;
-    }
-    */ 
-   
-
-
-    
-    #link {
-        max-width: 70ch;
-    }
-    #overskrift {
-        font-size: 25px;
-    }
-    #overskrift {
-        font-size: 25px;
-    }
-    ul {
-        list-style: none;
-    }
-    header {
-        background-color: #FFD500;
-    }
-    h1,
-    h2 {
-        margin: 0;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
-    header {
-        background-color: #FFD500;
-    }
-    h1,
-    h2 {
-        margin: 0;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
-    header {
-        background-color: #FFD500;
-    }
-    h1,
-    h2 {
-        margin: 0;
-        padding: 1%;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        padding-top: 20px;
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 1%;
-    }
-    .ImHERE {
-        font-size: larger;
-        font-weight: bold;
-    }
-    /* all css under her er bare for forsiden */
-    #header1 {
-        background-image: url(/img1/p35.jpeg);
-        background-size: cover;
-        color: black;
-        text-align: center;
-        text-decoration: underline;
-        font-size: x-large;
-        background-position-y: center;
-        height: 200px;
-    }
-}
->>>>>>> Stashed changes
 
 .navbar {
     display: flex;
@@ -204,7 +32,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,226,82,1) 10
     text-decoration: none;
     font-size: 2vw;
     /* padding: 2%; */
-    border: 1px solid;
 }
 
 .reflect_header {
@@ -232,10 +59,6 @@ background: linear-gradient(0deg, rgba(255,255,255,1) 50%, rgba(255,226,82,1) 10
 
 #reflect-tekst_2 {
     margin-top: 2%;
-}
-
-.navbar>div {
-    border: 1px solid;
 }
 
 .div_reflect {
@@ -300,70 +123,30 @@ header {
 h1,
 h2 {
     margin: 0;
+    padding: 1%;
 }
 
 #innhold {
     display: flex;
     flex-direction: row;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 100%);
+    height: 50vh;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
-footer {
-    background-color: whitesmoke;
+#box1 {
+    flex: 1;
 }
 
-footer>ul {
-    margin: 0;
-    padding: 2%;
+#box2 {
+    flex: 1;
 }
 
-p {
-    margin: 0;
-    padding: 2%;
-}
-
-header {
-    background-color: #FFD500;
-}
-
-h1,
-h2 {
-    margin: 0;
-}
-
-#innhold {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-}
-
-footer {
-    background-color: whitesmoke;
-}
-
-footer>ul {
-    margin: 0;
-    padding: 2%;
-}
-
-p {
-    margin: 0;
-    padding: 2%;
-}
-
-header {
-    background-color: #FFD500;
-}
-
-h1,
-h2 {
-    margin: 0;
-    padding: 1%;
-}
-
-#innhold {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+#box3 {
+    flex: 1;
 }
 
 footer {
@@ -384,6 +167,7 @@ p {
 .ImHERE {
     font-size: larger;
     font-weight: bold;
+    text-decoration: default;
 }
 
 
@@ -397,7 +181,7 @@ p {
     text-decoration: underline;
     font-size: x-large;
     background-position-y: center;
-    height: 30vh;
+    height: 50vh;
 }
 
 @media only screen and (min-width:500px) and (max-width:800px) {
@@ -463,7 +247,7 @@ p {
         margin: 25px 10px 0;
         border-radius: 5px;
     }
-    */ .teksten {
+    .teksten {
         background: black;
         font-size: 15px;
         padding: 5%;
@@ -516,49 +300,10 @@ p {
     header {
         background-color: #FFD500;
     }
-    h1,
-    h2 {
-        margin: 0;
-    }
     #innhold {
         background: rgb(2, 0, 36);
         background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
-    header {
-        background-color: #FFD500;
-    }
-    h1,
-    h2 {
-        margin: 0;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
-    header {
-        background-color: #FFD500;
+        flex-direction: column;
     }
     h1,
     h2 {
