@@ -1,13 +1,7 @@
 
-* {
-    border:0px;
-    padding: 0px;
-    box-sizing: border-box;
 
-}
 
 html {
-    font-size: 25px;
     /* font-family from google fonts */
     color: black;
     font-family: 'Lato', sans-serif;
@@ -28,13 +22,64 @@ a {
     justify-content: center;
 }
 
+/*navbar start*/
+#header {
+    position: relative;
+}
+
+
+.navbar {
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    display: flex;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 150px;
+    height: 95px;
+    /*fiks farge*/
+}
+
+.navbar ul li {
+    list-style: none;
+    margin: 0 20px ;
+    display: inline-block; 
+    position: relative;  
+}
+
+.navbar ul li a {
+text-transform: uppercase;
+}
+
+.navbar ul li::after {
+    content: '';
+    width: 0%;
+    background: turquoise;
+    height: 2px;
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+    transition: 0.8s;
+
+}
+/*navbar slutt*/
+
 /* Midpart start*/
-#midpart {
+#FrontPage {
     background-image: linear-gradient(rgba(0, 0, 0, 0.527),
     rgba(0, 0, 0, 0.5)) , url(./img1/Barcode.jpeg);
-    background-position: top center;
+    background-position: center;
     background-size: cover;
-    position: relative;
+    width: 100%;
+    height: 100vh;
     z-index: 1;
     
 }
@@ -53,7 +98,7 @@ a {
 #midpart h1 {
     display: block;
     width: fit-content;
-    font-size: 2rem;
+    font-size: 3rem;
     position: relative;
     color: transparent;
     animation: hoved_tekst 1s ease forwards;
@@ -136,7 +181,12 @@ transition-property: background-color, color;
 #VisitPlaces .VisitHeader {
 font-family: 'Lato', sans-serif;
 font-size: 30px;
-font-weight: 200;
+text-align: center;
 
 } 
+
+.EtSted {
+
+}
+
 /*Places to visit slutt */
