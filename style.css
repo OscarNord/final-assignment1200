@@ -17,7 +17,7 @@ body {
     justify-content: space-around;
     flex-direction: row;
     width: 100vw;
-    height: 3vh;
+    height: 4vh;
     text-align: center;
     z-index: 3s;
     padding-top: 1vh;
@@ -99,7 +99,7 @@ display: block;
 flex-direction: row;
 justify-content:space-between;
 background: rgb(255, 213, 0);
-background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);5, 245, 245, 1) 90%);
+background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
 font-size: 15px;
 margin: 0%;
 padding: 1% 0;
@@ -301,7 +301,7 @@ p {
 
     .teksten{
         background: rgb(255, 213, 0);
-        background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);5, 245, 245, 1) 90%);
+        background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
         font-size: 15px;
         margin: 0%;
         padding: 1% 0;
