@@ -13,11 +13,11 @@ body {
     display: flex;
     margin: auto;
     background-color: #FFD500;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-around;
     flex-direction: row;
     width: 100vw;
-    height: 3vh;
+    height: 5vh;
     text-align: center;
     z-index: 3s;
     padding-top: 1vh;
@@ -27,7 +27,7 @@ body {
 .navbar>a {
     color: #000;
     text-decoration: none;
-    font-size: 2.5vw;
+    font-size: 2vw;
     /* padding: 2%; */
 }
 
@@ -63,15 +63,10 @@ body {
 }
 
 .div_reflect {
-    background-image: url(/img1/Oslomet\ .jpeg);
+    background-image: url(../img1/Oslomet\ .jpeg);
     height: 100%;
     display: grid;
-    grid-template-areas: 
-    "header header"
-    "content content2"
-    "content content2"
-    "footer footer"
-    ;
+    grid-template-areas: "header header" "content content2" "content content2" "footer footer";
 }
 
 #reflect_footer {
@@ -198,7 +193,7 @@ p {
 /* all css under her er bare for forsiden */
 
 #header1 {
-    background-image: url(/img1/p35.jpeg);
+    background-image: url(../img1/p35.jpeg);
     background-size: cover;
     color: black;
     text-align: center;
@@ -234,6 +229,7 @@ p {
         text-decoration: none;
         padding: 2%;
         border: 1px solid;
+        font-size: 2.5vw;
     }
     .reflect_header {
         margin: 0 10px 10px;
@@ -266,14 +262,7 @@ p {
         background-image: url(/img1/Oslomet\ .jpeg);
         height: 100%;
         display: grid;
-        grid-template-areas: 
-        "header"
-        "content"
-        "content"
-        "content2"
-        "content2"
-        "footer"
-        ;
+        grid-template-areas: "header" "content" "content" "content2" "content2" "footer";
     }
     #reflect_footer {
         padding: 0;
@@ -281,8 +270,6 @@ p {
         border-radius: 5px;
         grid-area: footer;
     }
-    
-  
     .teksten>h2 {
         color:black;
         font-size:20px;
@@ -297,9 +284,7 @@ p {
         color:black;
         font-size:20px;
     }
-
-
-    .teksten{
+    .teksten {
         background: rgb(255, 213, 0);
         background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
         font-size: 15px;
@@ -308,15 +293,12 @@ p {
         padding-left: 2%;
         flex-direction: column;
     }
-   
     .teksten>p {
         max-width: 70ch;
     }
     #link {
         max-width: 70ch;
     }
-
-  
     #overskrift {
         font-size: 25px;
     }
@@ -364,3 +346,4 @@ p {
         background-position-y: center;
         height: 200px;
     }
+}
