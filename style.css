@@ -13,11 +13,11 @@ body {
     display: flex;
     margin: auto;
     background-color: #FFD500;
-    align-items: stretch;
+    align-items: center;
     justify-content: space-around;
     flex-direction: row;
     width: 100vw;
-    height: 4vh;
+    height: 10vh;
     text-align: center;
     z-index: 3s;
     padding-top: 1vh;
@@ -63,15 +63,10 @@ body {
 }
 
 .div_reflect {
-    background-image: url(/img1/Oslomet\ .jpeg);
+    background-image: url(../img1/Oslomet\ .jpeg);
     height: 100%;
     display: grid;
-    grid-template-areas: 
-    "header header"
-    "content content2"
-    "content content2"
-    "footer footer"
-    ;
+    grid-template-areas: "header header" "content content2" "content content2" "footer footer";
 }
 
 #reflect_footer {
@@ -81,35 +76,34 @@ body {
     grid-area: footer;
 }
 
-
 .teksten>h2 {
-    color:black;
-}
-
-.teksten>h3{
     color: black;
 }
 
-.teksten>h4{
-    color:black;
+.teksten>h3 {
+    color: black;
+}
+
+.teksten>h4 {
+    color: black;
     font-size: 20px;
 }
-.teksten{
-display: block;
-flex-direction: row;
-justify-content:space-between;
-background: rgb(255, 213, 0);
-background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
-font-size: 15px;
-margin: 0%;
-padding: 1% 0;
-padding-left: 2%;
+
+.teksten {
+    display: block;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
+    font-size: 15px;
+    margin: 0%;
+    padding: 1% 0;
+    padding-left: 2%;
 }
 
 #boks1 {
     flex: 1;
     margin-right: 5%;
-   
 }
 
 #boks2 {
@@ -120,7 +114,6 @@ padding-left: 2%;
 #boks3 {
     flex: 1;
     margin-right: 5%;
-   
 }
 
 .teksten>p {
@@ -268,14 +261,7 @@ p {
         background-image: url(/img1/Oslomet\ .jpeg);
         height: 100%;
         display: grid;
-        grid-template-areas: 
-        "header"
-        "content"
-        "content"
-        "content2"
-        "content2"
-        "footer"
-        ;
+        grid-template-areas: "header" "content" "content" "content2" "content2" "footer";
     }
     #reflect_footer {
         padding: 0;
@@ -283,23 +269,16 @@ p {
         border-radius: 5px;
         grid-area: footer;
     }
-    
-  
     .teksten>h2 {
-        color:black;
+        color: black;
     }
-
-    .teksten>h3{
-        color:black;
+    .teksten>h3 {
+        color: black;
     }
-    
-    .teksten>h4{
-        color:black;
-       
+    .teksten>h4 {
+        color: black;
     }
-
-
-    .teksten{
+    .teksten {
         background: rgb(255, 213, 0);
         background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
         font-size: 15px;
@@ -308,15 +287,12 @@ p {
         padding-left: 2%;
         flex-direction: column;
     }
-   
     .teksten>p {
         max-width: 70ch;
     }
     #link {
         max-width: 70ch;
     }
-
-  
     #overskrift {
         font-size: 25px;
     }
