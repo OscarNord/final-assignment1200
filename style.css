@@ -17,22 +17,18 @@ body {
     justify-content: space-around;
     flex-direction: row;
     width: 100vw;
+    height: 3vh;
     text-align: center;
     z-index: 3s;
     padding-top: 1vh;
     padding-bottom: 1vh;
 }
 
-#reflect_nav {
-    padding: 0;
-}
-
 .navbar>a {
     color: #000;
     text-decoration: none;
-    font-size: 2vw;
+    font-size: 2.5vw;
     /* padding: 2%; */
-    border: 1px solid;
 }
 
 .reflect_header {
@@ -43,6 +39,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     font-size: x-large;
     text-decoration: underline;
+    grid-area: header;
 }
 
 .reflect-tekst p {
@@ -56,32 +53,34 @@ body {
     margin: 0 2%;
     padding: 1% 0;
     padding-left: 2%;
+    grid-area: content;
+    margin: 0 30px;
 }
 
 #reflect-tekst_2 {
-    margin-top: 2%;
-}
-
-.navbar>div {
-    border: 1px solid;
+    grid-area: content2;
 }
 
 .div_reflect {
     background-image: url(/img1/Oslomet\ .jpeg);
     height: 100%;
-}
-
-#reflect-tekst_2 {
-    margin-top: 25px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "content content2"
+    "content content2"
+    "footer footer"
+    ;
 }
 
 #reflect_footer {
     padding: 0;
     margin: 25px 10px 0;
     border-radius: 5px;
+    grid-area: footer;
 }
 
-*/ .teksten {
+.teksten {
     background: black;
     font-size: 15px;
     padding: 5%;
@@ -150,70 +149,30 @@ header {
 h1,
 h2 {
     margin: 0;
+    padding: 1%;
 }
 
 #innhold {
     display: flex;
     flex-direction: row;
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
+    height: 50vh;
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
-footer {
-    background-color: whitesmoke;
+#box1 {
+    flex: 1;
 }
 
-footer>ul {
-    margin: 0;
-    padding: 2%;
+#box2 {
+    flex: 1;
 }
 
-p {
-    margin: 0;
-    padding: 2%;
-}
-
-header {
-    background-color: #FFD500;
-}
-
-h1,
-h2 {
-    margin: 0;
-}
-
-#innhold {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-}
-
-footer {
-    background-color: whitesmoke;
-}
-
-footer>ul {
-    margin: 0;
-    padding: 2%;
-}
-
-p {
-    margin: 0;
-    padding: 2%;
-}
-
-header {
-    background-color: #FFD500;
-}
-
-h1,
-h2 {
-    margin: 0;
-    padding: 1%;
-}
-
-#innhold {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+#box3 {
+    flex: 1;
 }
 
 footer {
@@ -247,12 +206,13 @@ p {
     text-decoration: underline;
     font-size: x-large;
     background-position-y: center;
-    height: 30vh;
+    height: 50vh;
 }
 
-@media only screen and (min-width:500px) and (max-width:800px) {
+@media only screen and (max-width:800px) {
     .navbar {
         display: flex;
+        font-size: 1vh;
         margin: auto;
         background-color: #FFD500;
         align-items: stretch;
@@ -260,7 +220,8 @@ p {
         flex-direction: column;
         width: 100vw;
         text-align: center;
-        z-index: 3s;
+        height: initial;
+        padding: 0;
     }
     #reflect_nav {
         padding: 0;
@@ -283,6 +244,7 @@ p {
         background-color: rgba(255, 255, 255, 0.5);
         font-size: x-large;
         text-decoration: underline;
+        grid-area: header;
     }
     .reflect-tekst p {
         max-width: 70ch;
@@ -294,26 +256,32 @@ p {
         margin: 0 2%;
         padding: 1% 0;
         padding-left: 2%;
+        grid-area: content;
     }
     #reflect-tekst_2 {
         margin-top: 2%;
-    }
-    .navbar>div {
-        border: 1px solid;
+        grid-area: content2;
     }
     .div_reflect {
         background-image: url(/img1/Oslomet\ .jpeg);
         height: 100%;
-    }
-    #reflect-tekst_2 {
-        margin-top: 25px;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "content"
+        "content"
+        "content2"
+        "content2"
+        "footer"
+        ;
     }
     #reflect_footer {
         padding: 0;
         margin: 25px 10px 0;
         border-radius: 5px;
+        grid-area: footer;
     }
-    */ .teksten {
+    .teksten {
         background: black;
         font-size: 15px;
         padding: 5%;
@@ -366,58 +334,15 @@ p {
     header {
         background-color: #FFD500;
     }
-    h1,
-    h2 {
-        margin: 0;
-    }
     #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
-    header {
-        background-color: #FFD500;
-    }
-    h1,
-    h2 {
-        margin: 0;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    }
-    footer {
-        background-color: whitesmoke;
-    }
-    footer>ul {
-        margin: 0;
-        padding: 2%;
-    }
-    p {
-        margin: 0;
-        padding: 2%;
-    }
-    header {
-        background-color: #FFD500;
+        background: rgb(255, 213, 0);
+        background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
+        flex-direction: column;
     }
     h1,
     h2 {
         margin: 0;
         padding: 1%;
-    }
-    #innhold {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
     }
     footer {
         padding-top: 20px;
