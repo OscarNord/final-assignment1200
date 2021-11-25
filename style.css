@@ -17,7 +17,7 @@ body {
     justify-content: space-around;
     flex-direction: row;
     width: 100vw;
-    height: 10vh;
+    height: 5vh;
     text-align: center;
     z-index: 3s;
     padding-top: 1vh;
@@ -27,7 +27,7 @@ body {
 .navbar>a {
     color: #000;
     text-decoration: none;
-    font-size: 2.5vw;
+    font-size: 2vw;
     /* padding: 2%; */
 }
 
@@ -229,6 +229,7 @@ p {
         text-decoration: none;
         padding: 2%;
         border: 1px solid;
+        font-size: 2.5vw;
     }
     .reflect_header {
         margin: 0 10px 10px;
