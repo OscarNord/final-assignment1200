@@ -193,7 +193,7 @@ p {
 /* all css under her er bare for forsiden */
 
 #header1 {
-    background-image: url(/img1/p35.jpeg);
+    background-image: url(../img1/p35.jpeg);
     background-size: cover;
     color: black;
     text-align: center;
