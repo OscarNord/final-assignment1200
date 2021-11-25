@@ -66,7 +66,12 @@ body {
     background-image: url(../img1/Oslomet\ .jpeg);
     height: 100%;
     display: grid;
-    grid-template-areas: "header header" "content content2" "content content2" "footer footer";
+    grid-template-areas: 
+    "header header" 
+    "content content2" 
+    "content content2" 
+    "footer footer"
+    ;
 }
 
 #reflect_footer {
@@ -262,7 +267,11 @@ p {
         background-image: url(/img1/Oslomet\ .jpeg);
         height: 100%;
         display: grid;
-        grid-template-areas: "header" "content" "content" "content2" "content2" "footer";
+        grid-template-areas: 
+        "header" 
+        "content"
+        "content2" 
+        "footer";
     }
     #reflect_footer {
         padding: 0;
