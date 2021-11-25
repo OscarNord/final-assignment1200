@@ -1,6 +1,7 @@
 body {
     margin: 0;
     overflow-x: hidden;
+    font-family: sans-serif;
 }
 
 
@@ -147,7 +148,6 @@ h2 {
 }
 
 #innhold {
-    display: flex;
     flex-direction: row;
     background: rgb(255, 213, 0);
     background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
@@ -157,16 +157,21 @@ h2 {
     padding-bottom: 5vh;
 }
 
+#innhold>div {
+    padding: 1%;
+    text-align: center;
+}
+
 #box1 {
-    flex: 1;
+    grid-area: box1;
 }
 
 #box2 {
-    flex: 1;
+    grid-area: box2;
 }
 
 #box3 {
-    flex: 1;
+    grid-area: box3;
 }
 
 footer {
@@ -192,6 +197,11 @@ p {
 
 /* all css under her er bare for forsiden */
 
+#gridBox1 {
+    display: grid;
+    grid-template-areas: "header" "header" "header" "box1" "box2" "box3" "footer" "footer" "footer";
+}
+
 #header1 {
     background-image: url(../img1/p35.jpeg);
     background-size: cover;
@@ -201,6 +211,16 @@ p {
     font-size: x-large;
     background-position-y: center;
     height: 50vh;
+    justify-content: center;
+    grid-area: header;
+}
+
+#header1>div {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+#footer1 {
+    grid-area: footer;
 }
 
 @media only screen and (max-width:800px) {
