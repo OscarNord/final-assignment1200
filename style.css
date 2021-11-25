@@ -76,46 +76,46 @@ body {
     border-radius: 5px;
 }
 
-.teksten {
-    background: black;
-    font-size: 15px;
-    padding: 5%;
-    margin: 0 2%;
-    padding-left: 2%;
-}
 
 .teksten>h2 {
-    color: white;
+    color:black;
 }
 
-.teksten>p {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-}
-
-.teksten {
-    background: black;
-    font-size: 15px;
-    padding: 5%;
-    margin: 0 2%;
-    padding-left: 2%;
-}
-
-.teksten>h2 {
-    color: white;
-}
-
-.teksten {
-    background: rgb(2, 0, 36);
-    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
-    font-size: 15px;
-    margin: 0%;
-    padding: 1% 0;
-    padding-left: 2%;
-}
-
-.teksten>h2 {
+.teksten>h3{
     color: black;
+}
+
+.teksten>h4{
+    color:black;
+    font-size: 20px;
+}
+.teksten{
+display: block;
+flex-direction: row;
+justify-content:space-between;
+background: rgb(255, 213, 0);
+background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);5, 245, 245, 1) 90%);
+font-size: 15px;
+margin: 0%;
+padding: 1% 0;
+padding-left: 2%;
+}
+
+#boks1 {
+    flex: 1;
+    margin-right: 5%;
+   
+}
+
+#boks2 {
+    flex: 1;
+    margin-right: 5%;
+}
+
+#boks3 {
+    flex: 1;
+    margin-right: 5%;
+   
 }
 
 .teksten>p {
@@ -269,47 +269,40 @@ p {
         margin: 25px 10px 0;
         border-radius: 5px;
     }
-    .teksten {
-        background: black;
-        font-size: 15px;
-        padding: 5%;
-        margin: 0 2%;
-        padding-left: 2%;
-    }
+    
+  
     .teksten>h2 {
-        color: white;
+        color:black;
     }
-    .teksten>p {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+
+    .teksten>h3{
+        color:black;
     }
-    .teksten {
-        background: black;
-        font-size: 15px;
-        padding: 5%;
-        margin: 0 2%;
-        padding-left: 2%;
+    
+    .teksten>h4{
+        color:black;
+       
     }
-    .teksten>h2 {
-        color: white;
-    }
-    .teksten {
-        background: rgb(2, 0, 36);
-        background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(255, 213, 0, 1) 0%, rgba(245, 245, 245, 1) 90%);
+
+
+    .teksten{
+        background: rgb(255, 213, 0);
+        background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);5, 245, 245, 1) 90%);
         font-size: 15px;
         margin: 0%;
         padding: 1% 0;
         padding-left: 2%;
+        flex-direction: column;
     }
-    .teksten>h2 {
-        color: black;
-    }
+   
     .teksten>p {
         max-width: 70ch;
     }
     #link {
         max-width: 70ch;
     }
+
+  
     #overskrift {
         font-size: 25px;
     }
@@ -363,4 +356,3 @@ p {
         background-position-y: center;
         height: 200px;
     }
-}
