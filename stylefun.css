@@ -338,7 +338,10 @@ font-weight: 200;
         align-items: center;
         overflow: hidden;
         border-radius: 10px;
+        box-shadow: 5px 10px 10px 5px grey;
+        margin-bottom: 75px;
     }
+
 
     #VisitPlaces .EtSted2 {
         display: flex;
@@ -348,6 +351,8 @@ font-weight: 200;
         align-items: center;
         overflow: hidden;
         border-radius: 10px;
+        box-shadow: 5px 10px 10px 5px grey;
+        margin-bottom: 75px;
     }
 
     #VisitPlaces .EtSted3 {
@@ -358,6 +363,8 @@ font-weight: 200;
         align-items: center;
         overflow: hidden;
         border-radius: 10px;
+        box-shadow: 5px 10px 10px 5px grey;
+        margin-bottom: 75px;
     }
 
     #VisitPlaces .Stedsinfo1 {
