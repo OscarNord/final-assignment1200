@@ -38,6 +38,7 @@ body {
     background-color: rgba(255, 255, 255, 0.5);
     font-size: x-large;
     text-decoration: underline;
+    grid-area: header;
 }
 
 .reflect-tekst p {
@@ -51,25 +52,30 @@ body {
     margin: 0 2%;
     padding: 1% 0;
     padding-left: 2%;
+    grid-area: content;
 }
 
 #reflect-tekst_2 {
-    margin-top: 2%;
+    grid-area: content2;
 }
 
 .div_reflect {
     background-image: url(/img1/Oslomet\ .jpeg);
     height: 100%;
-}
-
-#reflect-tekst_2 {
-    margin-top: 25px;
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "content content2"
+    "content content2"
+    "footer footer"
+    ;
 }
 
 #reflect_footer {
     padding: 0;
     margin: 25px 10px 0;
     border-radius: 5px;
+    grid-area: footer;
 }
 
 .teksten {
@@ -236,6 +242,7 @@ p {
         background-color: rgba(255, 255, 255, 0.5);
         font-size: x-large;
         text-decoration: underline;
+        grid-area: header;
     }
     .reflect-tekst p {
         max-width: 70ch;
@@ -247,21 +254,30 @@ p {
         margin: 0 2%;
         padding: 1% 0;
         padding-left: 2%;
+        grid-area: content;
     }
     #reflect-tekst_2 {
         margin-top: 2%;
+        grid-area: content2;
     }
     .div_reflect {
         background-image: url(/img1/Oslomet\ .jpeg);
         height: 100%;
-    }
-    #reflect-tekst_2 {
-        margin-top: 25px;
+        display: grid;
+        grid-template-areas: 
+        "header"
+        "content"
+        "content"
+        "content2"
+        "content2"
+        "footer"
+        ;
     }
     #reflect_footer {
         padding: 0;
         margin: 25px 10px 0;
         border-radius: 5px;
+        grid-area: footer;
     }
     .teksten {
         background: black;
