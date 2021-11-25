@@ -1,5 +1,9 @@
 
-
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
 
 html {
     /* font-family from google fonts */
@@ -41,6 +45,7 @@ a {
 .logo {
     width: 150px;
     height: 95px;
+    margin-top: 45px;
     /*fiks farge*/
 }
 
@@ -49,6 +54,7 @@ a {
     margin: 0 20px ;
     display: inline-block; 
     position: relative;  
+    margin-top: 45px;
 }
 
 .navbar ul li a {
@@ -70,6 +76,7 @@ text-transform: uppercase;
     transition: 0.8s;
 
 }
+
 /*navbar slutt*/
 
 /* Midpart start*/
@@ -178,15 +185,241 @@ transition-property: background-color, color;
 /*Midpart ending */
 
 /*Places to visit start */
-#VisitPlaces .VisitHeader {
-font-family: 'Lato', sans-serif;
-font-size: 30px;
-text-align: center;
+.HeaderTekst {
+    text-transform: uppercase;
+    font-weight: 200;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
 
-} 
-
-.EtSted {
+#VisitPlaces {
+    max-width: 100%;
+    margin:0 auto;
+    padding: 100px 0;
+    background-color: whitesmoke;
+    justify-content: center;
+    display: flex;
 
 }
 
+#VisitPlaces .EtSted1 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+    flex-direction: column;
+}
+
+#VisitPlaces .EtSted2 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#VisitPlaces .EtSted3 {
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    margin: 20px auto;
+}
+
+#VisitPlaces .AlleSteder {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;    
+}
+
+#VisitPlaces .Stedsinfo1 {
+    padding: 27px;
+    height: 500px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: turquoise;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.87),
+    rgba(241, 240, 240, 0.733));
+}
+
+#VisitPlaces .Stedsinfo2 {
+    padding: 25px;
+    height: 500px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: turquoise;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.87),
+    rgba(241, 240, 240, 0.733));
+}
+
+#VisitPlaces .Stedsinfo3 {
+    padding: 25px;
+    height: 500px;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: turquoise;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.87),
+    rgba(241, 240, 240, 0.733));
+}
+
+#VisitPlaces .VisitHeader {
+font-family: 'Lato', sans-serif;
+text-align: center;
+flex-direction: column;
+justify-content: center;
+} 
+
+.Stedsinfo1 {
+font-weight: 200;
+
+}
+.Stedsinfo2 {
+font-weight: 200;
+    
+    }
+
+.Stedsinfo3 {
+font-weight: 200;
+}
+
+.StedsBilde1 {
+    border-bottom: 25px;
+    height: 500px;
+    width: 40%;
+}
+
+.StedsBilde2 {
+    border-bottom: 25px;
+    height: 500px;
+    width: 40%;
+
+}
+.StedsBilde3 {
+    height: 500px;
+    border-bottom: 25px;
+    width: 40%;
+}
+
+
+
 /*Places to visit slutt */
+
+
+/* FOR MOBIL */
+@media only screen and (max-width:800px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+
+    #VisitPlaces .AlleSteder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;    
+    }
+
+    #VisitPlaces {
+        display: flex;
+        flex-direction: column;
+        background-color: rgba(206, 204, 204, 0.733);
+    }
+
+    #VisitPlaces .EtSted1 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #VisitPlaces .EtSted2 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #VisitPlaces .EtSted3 {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    #VisitPlaces .Stedsinfo1 {
+        width: 90%;
+        justify-content: center;
+        height: 100%;
+        flex-basis: 50%;
+        align-items: flex-start;
+        flex-direction: column;
+
+    }
+
+    #VisitPlaces .Stedsinfo2 {
+        width: 90%;
+        justify-content: center;
+        height: 100%;
+        flex-basis: 50%;
+        align-items: flex-start; 
+        flex-direction: column;
+    }
+
+    #VisitPlaces .Stedsinfo3 {
+        width: 90%;
+        justify-content: center;
+        height: 100%;
+        flex-basis: 50%;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .StedsBilde1 {
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        padding-bottom: 75px;
+    }
+    
+    .StedsBilde2 {
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        padding-bottom: 75px;
+
+    }
+    .StedsBilde3 {
+        height: 400px;
+        overflow: hidden;
+        width: 100%;
+        position: relative;
+        padding-bottom: 75px;
+
+    }
+    
+
+}
+
+/*FOR PC*/
+@media only screen and (min-width:800px) {
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    
+
+
+}
