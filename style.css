@@ -32,7 +32,7 @@ body {
 }
 
 .reflect_header {
-    margin: 0 10px 10px;
+    margin: 10px 10px 15px;
     padding: 15px 10px 0;
     border-radius: 5px;
     text-align: center;
@@ -64,20 +64,16 @@ body {
 
 .div_reflect {
     background-image: url(../img1/Oslomet\ .jpeg);
-    height: 100%;
     display: grid;
     grid-template-areas: "header header" "content content2" "content content2" "footer footer";
 }
 
 #reflect_footer {
     padding: 0;
-    margin: 25px 10px 0;
+    margin: 25px 10px 20px;
     border-radius: 5px;
-  grid-area:footer;
+    grid-area:footer;
 }
-
-
-
 
 #overskrift2{
     font-size:20px;
@@ -92,10 +88,6 @@ body {
 #overskrift3{
     font-size:20px;
     color:black;
-
-    
-    
-    
 }
 
 #overskrift4{
@@ -331,7 +323,7 @@ img {
         font-size: 2.5vw;
     }
     .reflect_header {
-        margin: 0 10px 10px;
+        margin: 10px 10px 15px;
         padding: 15px 10px 0;
         border-radius: 5px;
         text-align: center;
@@ -365,7 +357,7 @@ img {
     }
     #reflect_footer {
         padding: 0;
-        margin: 25px 10px 0;
+        margin: 25px 10px 20px;
         border-radius: 5px;
         grid-area: footer;
     }
