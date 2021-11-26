@@ -110,26 +110,17 @@ body {
     margin-right: 2%;
 }
 
-
-.teksten{
-font-family: sans-serif;
-justify-content:space-between;
-background: rgb(255, 213, 0);
-background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
-font-size: 15px;
-margin: 0%;
-padding: 1% 0;
-padding-left: 2%;
-display:grid;
-grid-template-areas:
-"header header" 
-"boks1 boks2" 
-"boks1 boks2" 
-"boks3 boks3"
-"boks3 boks3" 
-"link kilder"
-"link kilder"
-"footer footer";
+.teksten {
+    font-family: sans-serif;
+    justify-content: space-between;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
+    font-size: 15px;
+    margin: 0%;
+    padding: 1% 0;
+    padding-left: 2%;
+    display: grid;
+    grid-template-areas: "header header" "boks1 boks2" "boks1 boks2" "boks3 boks3" "boks3 boks3" "link kilder" "link kilder" "footer footer";
 }
 
 #boks1 {
@@ -184,6 +175,7 @@ ul {
 
 header {
     background-color: #FFD500;
+    text-align: center;
 }
 
 h1,
@@ -275,7 +267,7 @@ p {
 #innholdAccess {
     display: flex;
     background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
     flex-direction: column;
 }
 
@@ -306,6 +298,10 @@ img {
         margin: 0 10px;
         grid-area: content;
     }
+    .reflect-tekst {
+        margin: 0 10px;
+        grid-area: content;
+    }
     #reflect-tekst_2 {
         margin-top: 2%;
     }
@@ -316,6 +312,22 @@ img {
     #reflect_footer {
         grid-area: footer;
     }
+
+    #overskrift2{ 
+        color:black;
+        font-size:18px;
+    }
+
+    #overskrift3{
+        color:black;
+        font-size:18x;
+    }
+    
+    #overskrift4{
+        color:black;
+        font-size:18px;
+    }
+
     .teksten {
         font-family: sans-serif;
         background: rgb(255, 213, 0);
@@ -324,30 +336,36 @@ img {
         margin: 0%;
         padding: 1% 0;
         padding-left: 2%;
-        display:grid;
-        grid-template-areas: 
-        "header header" 
-        "boks1 boks1" 
-        "boks2 boks2" 
-        "boks3 boks3"
-        "boks3 boks3" 
-        "kilder kilder"
-        "link link"
-        "footer footer";
+        display: grid;
+        grid-template-areas: "header header" "boks1 boks1" "boks2 boks2" "boks3 boks3" "boks3 boks3" "kilder kilder" "link link" "footer footer";
     }
-    #boks1 {
+
+    #boks1{
+        grid-area:boks1;
+        margin-right:5px;
         margin-bottom: 2%;
     }
-    #boks2 {
+    
+    #boks2{
+        grid-area: boks2;
+        margin-right:5px;
+        margin-bottom:1%;
+    }
+    
+    
+    #boks3{
+        grid-area: boks3;
         margin-right: 5px;
-        margin-bottom: 1%;
     }
-    #boks3 {
-        margin-right: 5px;
+    
+    footer{
+        grid-area:footer;
     }
-    #link {
-        max-width: 70ch;
-    }
+    
+       
+        #link {
+            max-width: 70ch;
+        }
     #innhold {
         flex-direction: column;
     }
