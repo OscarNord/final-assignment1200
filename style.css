@@ -425,14 +425,6 @@ footer{
         margin: 0;
         padding: 2%;
     }
-    p {
-        margin: 0;
-        padding: 1%;
-    }
-    .ImHERE {
-        font-size: larger;
-        font-weight: bold;
-    }
     /* all css under her er bare for forsiden */
     #header1 {
         background-image: url(/img1/p35.jpeg);
