@@ -201,7 +201,6 @@ transition-property: background-color, color;
 #VisitPlaces {
     max-width: 100%;
     margin:0 auto;
-    padding: 100px 0;
     background-color: whitesmoke;
     justify-content: center;
     display: flex;
@@ -340,7 +339,7 @@ font-weight: 200;
         font-weight: 500;
         font-size: 40px;
         margin-bottom: 50px;
-        margin-top: 75px;
+        margin-top: 50px;
     }
 
     #VisitPlaces .AlleSteder {
@@ -424,7 +423,7 @@ font-weight: 200;
 
     .StedsBilde1 {
         overflow: hidden;
-        height: 400px;
+        height: auto;
         width: 100%;
         position: relative;
         padding-bottom: 75px;
@@ -433,19 +432,21 @@ font-weight: 200;
     
     .StedsBilde2 {
         overflow: hidden;
-        height: 400px;
+        height: auto;
         width: 100%;
         position: relative;
         padding-bottom: 75px;
         padding: 0 27px;
+        object-fit: cover;
     }
     .StedsBilde3 {
         overflow: hidden;
-        height: 400px;
+        height: auto;
         width: 100%;
         position: relative;
         padding-bottom: 75px;
         padding: 0 27px;
+        object-fit: cover;
 
     }
 
@@ -470,7 +471,7 @@ font-weight: 200;
     /* header sliutt */
 
     .HeaderTekst {
-        margin-top: 0;
+        margin-top: 50px;
     }
     
     /* Visit places start*/

@@ -195,6 +195,12 @@ img {
     flex-direction: column;
 }
 
+img {
+    border-radius: 20px;
+    max-width: 40vw;
+    max-height: 10vw;
+    margin: auto;
+}
 
 /*
     TOPICAL
@@ -267,7 +273,6 @@ img {
     margin-top: 10px;
     margin-right: 20px;
 }
-
 .teksten>p {
     max-width: 70ch;
 }
@@ -290,7 +295,14 @@ img {
 }
 
 footer {
+    padding-top: 20px;
+    background-color: whitesmoke;
     grid-area: footer;
+}
+
+footer>ul {
+    margin: 0;
+    padding: 2%;
 }
 
 @media only screen and (max-width:800px) {
