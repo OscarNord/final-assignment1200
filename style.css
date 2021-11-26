@@ -26,7 +26,6 @@ body {
     color: #000;
     text-decoration: none;
     font-size: 2vw;
-    /* padding: 2%; */
 }
 
 .reflect_header {
@@ -158,9 +157,6 @@ grid-template-areas:
     margin-right: 20px;
 
 }
-
-
-
 footer{
     grid-area:footer;
 }
@@ -302,7 +298,7 @@ img {
         margin: auto;
         background-color: #FFD500;
         align-items: stretch;
-        /* justify-content: space-between; */
+
         flex-direction: column;
         width: 100vw;
         text-align: center;
@@ -310,15 +306,13 @@ img {
         padding: 0;
        
     }
-    #reflect_nav {
-        padding: 0;
-    }
     .navbar>a {
-        color: #000;
-        text-decoration: none;
         padding: 2%;
         border: 1px solid;
         font-size: 2.5vw;
+    }
+    #reflect_nav {
+        padding: 0;
     }
     .reflect-tekst {
         margin: 0 10px;
@@ -360,17 +354,17 @@ img {
         flex-direction: column;
         display:grid;
         grid-template-areas: 
-"header header" 
-"boks1 boks1" 
-"boks2 boks2" 
-"boks3 boks3"
-"boks3 boks3" 
-"kilder kilder"
-"link link"
-"footer footer";
+        "header header" 
+        "boks1 boks1" 
+        "boks2 boks2" 
+        "boks3 boks3"
+        "boks3 boks3" 
+        "kilder kilder"
+        "link link"
+        "footer footer";
     }
 
-    
+
     .kilder{
         font-size:16px;
         margin-top: 5%;
