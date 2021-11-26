@@ -124,7 +124,6 @@ body {
 
 .teksten{
 font-family: sans-serif;
-flex-direction: row;
 justify-content:space-between;
 background: rgb(255, 213, 0);
 background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
@@ -364,7 +363,6 @@ img {
         margin: 0%;
         padding: 1% 0;
         padding-left: 2%;
-        flex-direction: column;
         display:grid;
         grid-template-areas: 
         "header header" 
