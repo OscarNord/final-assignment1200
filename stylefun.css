@@ -27,26 +27,32 @@ a {
 }
 
 /*navbar start*/
+
 #header {
     position: relative;
 }
 
-
 .navbar {
     width: 90%;
     height: 50px;
-    margin: auto;
     display: flex;
     padding: 20px 0;
     align-items: center;
     justify-content: space-between;
+    width: 95%;
+}
+
+.navliste ul li {
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 0;
+
 }
 
 .logo {
     width: 150px;
     height: 95px;
-    margin-top: 45px;
-    /*fiks farge*/
+    margin-top: 20px;
 }
 
 .navbar ul li {
@@ -187,7 +193,7 @@ transition-property: background-color, color;
 /*Places to visit start */
 .HeaderTekst {
     text-transform: uppercase;
-    font-weight: 200;
+    font-weight: 500;
     font-size: 40px;
     margin-bottom: 50px;
 }
@@ -206,22 +212,19 @@ transition-property: background-color, color;
     display: flex;
     justify-content: center;
     width: 90%;
-    margin: 20px;
-    flex-direction: column;
+
 }
 
 #VisitPlaces .EtSted2 {
     display: flex;
     justify-content: center;
     width: 90%;
-    margin: 20px;
 }
 
 #VisitPlaces .EtSted3 {
     display: flex;
     justify-content: center;
-    width: 90%;
-    margin: 20px;
+    width: 90%;;
 }
 
 #VisitPlaces .AlleSteder {
@@ -317,6 +320,35 @@ font-weight: 200;
         padding: 0;
     }
 
+    /*navbar start*/
+
+    .navbar {
+        margin-right: 0;
+        width: 100%;
+    }
+
+    .navbar ul {
+        margin-top: 20px;
+    }
+
+    .logo {
+        margin-left: 25px;
+        margin-top: 15px;
+    }
+
+
+     /*navbar slutt*/
+
+    /*Visit places*/ 
+
+    .HeaderTekst {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 40px;
+        margin-bottom: 50px;
+        margin-top: 75px;
+    }
+
     #VisitPlaces .AlleSteder {
         display: flex;
         align-items: center;
@@ -326,6 +358,7 @@ font-weight: 200;
 
     #VisitPlaces {
         display: flex;
+        padding-top: 0;
         flex-direction: column;
         background-color: rgba(206, 204, 204, 0.733);
     }
@@ -338,7 +371,7 @@ font-weight: 200;
         align-items: center;
         overflow: hidden;
         border-radius: 10px;
-        box-shadow: 5px 10px 10px 5px grey;
+        box-shadow: 5px 10px 15px 10px rgb(126, 125, 125);
         margin-bottom: 75px;
     }
 
@@ -351,7 +384,7 @@ font-weight: 200;
         align-items: center;
         overflow: hidden;
         border-radius: 10px;
-        box-shadow: 5px 10px 10px 5px grey;
+        box-shadow: 5px 10px 15px 10px rgb(126, 125, 125);
         margin-bottom: 75px;
     }
 
@@ -363,7 +396,7 @@ font-weight: 200;
         align-items: center;
         overflow: hidden;
         border-radius: 10px;
-        box-shadow: 5px 10px 10px 5px grey;
+        box-shadow: 5px 10px 15px 10px rgb(126, 125, 125);
         margin-bottom: 75px;
     }
 
@@ -380,24 +413,24 @@ font-weight: 200;
     #VisitPlaces .Stedsinfo2 {
         width: 90%;
         justify-content: center;
+        flex-direction: column;
         height: 100%;
         flex-basis: 50%;
         align-items: flex-start; 
-        flex-direction: column;
     }
 
     #VisitPlaces .Stedsinfo3 {
         width: 90%;
         justify-content: center;
+        flex-direction: column;
         height: 100%;
         flex-basis: 50%;
         align-items: flex-start;
-        flex-direction: column;
     }
 
     .StedsBilde1 {
-        height: 400px;
         overflow: hidden;
+        height: 400px;
         width: 100%;
         position: relative;
         padding-bottom: 75px;
@@ -405,25 +438,27 @@ font-weight: 200;
     }
     
     .StedsBilde2 {
-        height: 400px;
         overflow: hidden;
+        height: 400px;
         width: 100%;
         position: relative;
         padding-bottom: 75px;
         padding: 0 27px;
     }
     .StedsBilde3 {
-        height: 400px;
         overflow: hidden;
+        height: 400px;
         width: 100%;
         position: relative;
         padding-bottom: 75px;
         padding: 0 27px;
 
     }
-    
+
+    /*Visit places slutt*/
 
 }
+    
 
 /*FOR PC*/
 @media only screen and (min-width:800px) {
@@ -431,7 +466,103 @@ font-weight: 200;
         margin: 0;
         padding: 0;
     }
-    
 
+    /* header start */
+    .logo {
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    /* header sliutt */
+
+    .HeaderTekst {
+        margin-top: 0;
+    }
+    
+    /* Visit places start*/
+
+    .EtSted1 {
+        width: 120%;
+        margin-right: 50px;
+        margin-bottom: 130px;
+        margin-top: 30px;
+        margin-left: 20px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    }
+
+   .EtSted1 .Stedsinfo1 {
+        height: 500px;
+        width: 120%;
+        padding: 27px;
+        padding-right: 15px;
+        margin-left: 0px;
+        height: 500px auto;
+        display: flex;
+    }
+
+    .StedsBilde1 img {
+        height: 554px;
+        width: 120%;
+        margin-right: 20px;
+
+    }
+
+    .EtSted2 {
+        width: 120%;
+        margin-right: 50px;
+        margin-bottom: 130px;
+        margin-top: 30px;
+        margin-left: 20px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    
+    }
+
+   .EtSted2 .Stedsinfo2{
+        height: 500px;
+        padding: 27px;
+        padding-right: 15px;
+        height: 500px auto;
+        width: 40%;
+        display: flex;
+    }
+
+    .StedsBilde2 img {
+        height: 554px;
+        width: 120%;
+        margin-right: 20px;
+
+    }
+
+    .EtSted3 {
+        margin-right: 50px;
+        margin-bottom: 130px;
+        margin-top: 30px;
+        margin-left: 20px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+    }
+
+   .EtSted3 .Stedsinfo3 {
+        height: 500px;
+        padding: 27px;
+        padding-right: 15px;
+        height: 500px auto;
+        width: 40%;
+        display: flex;
+    }
+
+    .StedsBilde3 img {
+        height: 554px;
+        width: 120%;
+        margin-right: 20px;
+
+    }
+    /*Visit places slutt*/
+
+   
 
 }
+
+
