@@ -134,14 +134,18 @@ body {
     grid-area: footer;
 }
 
+
+#overskrift {
+    font-size: 25px;
+    text-align: center;
+}
+
 #overskrift2 {
     font-size: 20px;
     color: black;
 }
 
-#boks1>p {
-    padding-right: 40px;
-}
+
 
 
 /*
@@ -207,6 +211,10 @@ body {
     margin-right: 5%;
 }
 
+#boks1>p {
+    padding-right: 40px;
+}
+
 #boks2 {
     grid-area: boks2;
     border: 1px solid black;
@@ -222,13 +230,6 @@ body {
     margin-right: 20px;
 }
 
-footer {
-    grid-area: footer;
-}
-
-.teksten>p {
-    max-width: 70ch;
-}
 
 #link {
     font-size: 18px;
@@ -236,13 +237,14 @@ footer {
     grid-area: link;
 }
 
-#overskrift {
-    font-size: 25px;
-    text-align: center;
+footer {
+    grid-area: footer;
 }
 
+
+
 header {
-    background-color: #FFD500;
+    background-color:#FFD500;
     grid-area: header;
     text-align: center;
     font-size: 25px;
