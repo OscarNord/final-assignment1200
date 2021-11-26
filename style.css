@@ -1,13 +1,12 @@
+/*
+    FELLES-KODE:
+*/
+
 body {
     margin: 0;
     overflow-x: hidden;
     font-family: sans-serif;
 }
-
-
-/*
-    HERIFRA OG NED ER DET BARE FOR LAPTOP
-*/
 
 .navbar {
     display: flex;
@@ -30,7 +29,14 @@ body {
     font-size: 2vw;
 }
 
+
+/*
+    FOR HOVEDSIDE:
+*/
+
+
 /* Kode for refleksjons siden nedenfor */
+
 #reflect_header {
     margin: 10px 10px 15px;
     padding: 15px 10px 0;
@@ -312,22 +318,18 @@ img {
     #reflect_footer {
         grid-area: footer;
     }
-
-    #overskrift2{ 
-        color:black;
-        font-size:18px;
+    #overskrift2 {
+        color: black;
+        font-size: 18px;
     }
-
-    #overskrift3{
-        color:black;
-        font-size:18x;
+    #overskrift3 {
+        color: black;
+        font-size: 18x;
     }
-    
-    #overskrift4{
-        color:black;
-        font-size:18px;
+    #overskrift4 {
+        color: black;
+        font-size: 18px;
     }
-
     .teksten {
         font-family: sans-serif;
         background: rgb(255, 213, 0);
@@ -339,33 +341,26 @@ img {
         display: grid;
         grid-template-areas: "header header" "boks1 boks1" "boks2 boks2" "boks3 boks3" "boks3 boks3" "kilder kilder" "link link" "footer footer";
     }
-
-    #boks1{
-        grid-area:boks1;
-        margin-right:5px;
+    #boks1 {
+        grid-area: boks1;
+        margin-right: 5px;
         margin-bottom: 2%;
     }
-    
-    #boks2{
+    #boks2 {
         grid-area: boks2;
-        margin-right:5px;
-        margin-bottom:1%;
+        margin-right: 5px;
+        margin-bottom: 1%;
     }
-    
-    
-    #boks3{
+    #boks3 {
         grid-area: boks3;
         margin-right: 5px;
     }
-    
-    footer{
-        grid-area:footer;
+    footer {
+        grid-area: footer;
     }
-    
-       
-        #link {
-            max-width: 70ch;
-        }
+    #link {
+        max-width: 70ch;
+    }
     #innhold {
         flex-direction: column;
     }
