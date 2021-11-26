@@ -475,7 +475,9 @@ font-weight: 200;
 
     /* header sliutt */
 
-    
+    .HeaderTekst {
+        margin-top: 0;
+    }
     
     /* Visit places start*/
 
