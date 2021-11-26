@@ -75,15 +75,17 @@ body {
     grid-area:footer;
 }
 
+#overskrift {
+    font-size: 25px;
+    text-align: center;
+}
+
 #overskrift2{
     font-size:20px;
     color:black;
     
 }
 
-#boks1>p{
-    padding-right: 40px;
-}
 
 #overskrift3{
     font-size:20px;
@@ -106,6 +108,7 @@ body {
 
 #referanser{
     font-size:16px;
+    text-align: center;
 }
 
 #link-info{
@@ -144,6 +147,11 @@ grid-template-areas:
     margin-right:5%;
 }
 
+#boks1>p{
+    padding-right: 40px;
+}
+
+
 #boks2{
     grid-area: boks2;
     border: 1px solid black;
@@ -181,11 +189,6 @@ footer{
 }
 
 
-
-#overskrift {
-    font-size: 25px;
-    text-align: center;
-}
 
 header {
     background-color: #FFD500;
@@ -361,6 +364,8 @@ img {
         border-radius: 5px;
         grid-area: footer;
     }
+
+
     overskrift2{ 
         color:black;
         font-size:18px;
@@ -431,12 +436,7 @@ footer{
     #link {
         max-width: 70ch;
     }
-    #overskrift {
-        font-size: 25px;
-    }
-    #overskrift {
-        font-size: 25px;
-    }
+  
     ul {
         list-style: none;
     }
