@@ -197,9 +197,7 @@ ul {
     list-style: none;
 }
 
-header {
-    background-color: #FFD500;
-}
+
 
 h1,
 h2 {
@@ -414,9 +412,7 @@ footer{
     ul {
         list-style: none;
     }
-    header {
-        background-color: #FFD500;
-    }
+   
     #innhold {
         background: rgb(255, 213, 0);
         background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
