@@ -31,8 +31,61 @@ body {
 
 
 /*
-    FOR HOVEDSIDE:
+    FOR FORSIDE:
 */
+
+#header1 {
+    background-image: url(../img1/p35.jpeg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    background-position-y: center;
+    height: 50vh;
+    grid-area: header;
+}
+
+#header1>div {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+#gridBox1 {
+    display: grid;
+    grid-template-areas: "header" "innhold" "footer";
+}
+
+#innhold {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: left;
+    grid-area: innhold;
+}
+
+#innhold>div {
+    padding: 3%;
+}
+
+#box1 {
+    flex: 1;
+}
+
+#box2 {
+    flex: 1;
+}
+
+#box3 {
+    flex: 1;
+}
 
 
 /* Kode for refleksjons siden nedenfor */
@@ -183,41 +236,13 @@ ul {
 header {
     background-color: #FFD500;
     text-align: center;
-    font-size:25px;
+    font-size: 25px;
 }
 
 h1,
 h2 {
     margin: 0;
     padding: 1%;
-}
-
-#innhold {
-    display: flex;
-    flex-direction: row;
-    background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
-    justify-content: space-between;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    text-align: left;
-    grid-area: innhold;
-}
-
-#innhold>div {
-    padding: 3%;
-}
-
-#box1 {
-    flex: 1;
-}
-
-#box2 {
-    flex: 1;
-}
-
-#box3 {
-    flex: 1;
 }
 
 footer {
@@ -240,38 +265,6 @@ p {
     font-weight: bold;
 }
 
-
-/* all css under her er bare for forsiden */
-
-#header1 {
-    background-image: url(../img1/p35.jpeg);
-    background-size: cover;
-    color: black;
-    text-align: center;
-    font-size: x-large;
-    background-position-y: center;
-    height: 50vh;
-    grid-area: header;
-}
-
-#header1>div {
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: inline-block;
-    border-radius: 10px;
-    text-decoration: underline;
-    margin-top: 25px;
-}
-
-#gridBox1 {
-    display: grid;
-    grid-template-areas: "header" "innhold" "footer";
-}
-
-#footer1 {
-    grid-area: footer;
-}
-
 #innholdAccess {
     display: flex;
     background: rgb(255, 213, 0);
@@ -287,6 +280,9 @@ img {
 }
 
 @media only screen and (max-width:800px) {
+    /*
+        FELLES
+    */
     .navbar {
         align-items: stretch;
         flex-direction: column;
@@ -302,6 +298,18 @@ img {
         border: 1px solid;
         font-size: 2.7vw;
     }
+    /*
+        FORSIDE
+    */
+    #header1 {
+        height: 200px;
+    }
+    #innhold {
+        flex-direction: column;
+    }
+    /*
+        REFLECT
+    */
     .reflect-tekst {
         margin: 0 10px;
         grid-area: content;
@@ -362,11 +370,5 @@ img {
     }
     #link {
         max-width: 70ch;
-    }
-    #innhold {
-        flex-direction: column;
-    }
-    #header1 {
-        height: 200px;
     }
 }
