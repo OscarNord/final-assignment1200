@@ -72,15 +72,17 @@ body {
     grid-area:footer;
 }
 
+#overskrift {
+    font-size: 25px;
+    text-align: center;
+}
+
 #overskrift2{
     font-size:20px;
     color:black;
     
 }
 
-#boks1>p{
-    padding-right: 40px;
-}
 
 #overskrift3{
     font-size:20px;
@@ -103,6 +105,7 @@ body {
 
 #referanser{
     font-size:16px;
+    text-align: center;
 }
 
 #link-info{
@@ -141,6 +144,11 @@ grid-template-areas:
     margin-right:5%;
 }
 
+#boks1>p{
+    padding-right: 40px;
+}
+
+
 #boks2{
     grid-area: boks2;
     border: 1px solid black;
@@ -176,11 +184,6 @@ footer{
 
 
 
-#overskrift {
-    font-size: 25px;
-    text-align: center;
-}
-
 header {
     background-color: #FFD500;
     grid-area: header;
@@ -190,9 +193,7 @@ ul {
     list-style: none;
 }
 
-header {
-    background-color: #FFD500;
-}
+
 
 h1,
 h2 {
@@ -329,6 +330,8 @@ img {
     #reflect_footer {
         grid-area: footer;
     }
+
+
     overskrift2{ 
         color:black;
         font-size:18px;
@@ -399,18 +402,11 @@ footer{
     #link {
         max-width: 70ch;
     }
-    #overskrift {
-        font-size: 25px;
-    }
-    #overskrift {
-        font-size: 25px;
-    }
+  
     ul {
         list-style: none;
     }
-    header {
-        background-color: #FFD500;
-    }
+   
     #innhold {
         background: rgb(255, 213, 0);
         background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
