@@ -297,7 +297,10 @@ img {
     margin: auto;
 }
 
-
+#header{
+    background-color: #FFD500;
+    text-align: center;
+}
 
 @media only screen and (max-width:800px) {
     .navbar {
