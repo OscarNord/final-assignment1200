@@ -28,7 +28,6 @@ body {
     color: #000;
     text-decoration: none;
     font-size: 2vw;
-    /* padding: 2%; */
 }
 
 #reflect_header {
@@ -284,7 +283,6 @@ img {
 
 @media only screen and (max-width:800px) {
     .navbar {
-        font-size: 1vh;
         align-items: stretch;
         flex-direction: column;
         text-align: center;
@@ -297,6 +295,7 @@ img {
     .navbar>a {
         padding: 2%;
         border: 1px solid;
+        font-size: 2.3vw;
     }
     .reflect-tekst {
         margin: 0 10px;
