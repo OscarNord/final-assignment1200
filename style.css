@@ -143,6 +143,23 @@ body {
     padding-right: 40px;
 }
 
+
+/*
+    ACCESS:
+*/
+
+#innholdAccess {
+    display: flex;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
+    flex-direction: column;
+}
+
+
+/*
+    TOPICAL
+*/
+
 #overskrift3 {
     font-size: 20px;
     color: black;
@@ -227,16 +244,12 @@ footer {
 header {
     background-color: #FFD500;
     grid-area: header;
+    text-align: center;
+    font-size: 25px;
 }
 
 ul {
     list-style: none;
-}
-
-header {
-    background-color: #FFD500;
-    text-align: center;
-    font-size: 25px;
 }
 
 h1,
@@ -263,13 +276,6 @@ p {
 .ImHERE {
     font-size: larger;
     font-weight: bold;
-}
-
-#innholdAccess {
-    display: flex;
-    background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
-    flex-direction: column;
 }
 
 img {
