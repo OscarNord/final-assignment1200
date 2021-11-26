@@ -78,9 +78,11 @@ body {
     grid-area:footer;
 }
 
-#overskrift {
+#overskrift{
     font-size: 25px;
     text-align: center;
+    background-color: #FFD500;
+    grid-area: header;
 }
 
 #overskrift2{
@@ -190,10 +192,7 @@ footer{
 
 
 
-header {
-    background-color: #FFD500;
-    grid-area: header;
-}
+
 
 ul {
     list-style: none;
@@ -298,6 +297,8 @@ img {
     margin: auto;
 }
 
+
+
 @media only screen and (max-width:800px) {
     .navbar {
         display: flex;
@@ -338,17 +339,17 @@ img {
     }
 
 
-    overskrift2{ 
+    #overskrift2{ 
         color:black;
         font-size:18px;
     }
 
-    overskrift3{
+    #overskrift3{
         color:black;
         font-size:18x;
     }
     
-    overskrift4{
+    #overskrift4{
         color:black;
         font-size:18px;
     }
