@@ -31,7 +31,7 @@ body {
     /* padding: 2%; */
 }
 
-.reflect_header {
+#reflect_header {
     margin: 10px 10px 15px;
     padding: 15px 10px 0;
     border-radius: 5px;
@@ -298,11 +298,19 @@ img {
         padding: 2%;
         border: 1px solid;
     }
+    .reflect-tekst {
+        margin: 0 10px;
+        grid-area: content;
+    }
     #reflect-tekst_2 {
         margin-top: 2%;
     }
     .div_reflect {
-        height: 100%;
+        display: grid;
+        grid-template-areas: "header" "content" "content2" "footer";
+    }
+    #reflect_footer {
+        grid-area: footer;
     }
     .teksten {
         font-family: sans-serif;
