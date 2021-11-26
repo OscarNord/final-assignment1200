@@ -30,6 +30,7 @@ body {
     font-size: 2vw;
 }
 
+/* Kode for refleksjons siden nedenfor */
 #reflect_header {
     margin: 10px 10px 15px;
     padding: 15px 10px 0;
@@ -110,26 +111,17 @@ body {
     margin-right: 2%;
 }
 
-
-.teksten{
-font-family: sans-serif;
-justify-content:space-between;
-background: rgb(255, 213, 0);
-background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
-font-size: 15px;
-margin: 0%;
-padding: 1% 0;
-padding-left: 2%;
-display:grid;
-grid-template-areas:
-"header header" 
-"boks1 boks2" 
-"boks1 boks2" 
-"boks3 boks3"
-"boks3 boks3" 
-"link kilder"
-"link kilder"
-"footer footer";
+.teksten {
+    font-family: sans-serif;
+    justify-content: space-between;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
+    font-size: 15px;
+    margin: 0%;
+    padding: 1% 0;
+    padding-left: 2%;
+    display: grid;
+    grid-template-areas: "header header" "boks1 boks2" "boks1 boks2" "boks3 boks3" "boks3 boks3" "link kilder" "link kilder" "footer footer";
 }
 
 #boks1 {
@@ -276,7 +268,7 @@ p {
 #innholdAccess {
     display: flex;
     background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
     flex-direction: column;
 }
 
@@ -345,16 +337,8 @@ img {
         margin: 0%;
         padding: 1% 0;
         padding-left: 2%;
-        display:grid;
-        grid-template-areas: 
-        "header header" 
-        "boks1 boks1" 
-        "boks2 boks2" 
-        "boks3 boks3"
-        "boks3 boks3" 
-        "kilder kilder"
-        "link link"
-        "footer footer";
+        display: grid;
+        grid-template-areas: "header header" "boks1 boks1" "boks2 boks2" "boks3 boks3" "boks3 boks3" "kilder kilder" "link link" "footer footer";
     }
 
     #boks1{
