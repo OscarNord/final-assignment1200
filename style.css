@@ -31,7 +31,7 @@ body {
     /* padding: 2%; */
 }
 
-.reflect_header {
+#reflect_header {
     margin: 10px 10px 15px;
     padding: 15px 10px 0;
     border-radius: 5px;
@@ -184,6 +184,7 @@ ul {
 
 header {
     background-color: #FFD500;
+    text-align: center;
 }
 
 h1,
@@ -298,12 +299,36 @@ img {
         padding: 2%;
         border: 1px solid;
     }
+    .reflect-tekst {
+        margin: 0 10px;
+        grid-area: content;
+    }
     #reflect-tekst_2 {
         margin-top: 2%;
     }
     .div_reflect {
-        height: 100%;
+        display: grid;
+        grid-template-areas: "header" "content" "content2" "footer";
     }
+    #reflect_footer {
+        grid-area: footer;
+    }
+
+    #overskrift2{ 
+        color:black;
+        font-size:18px;
+    }
+
+    #overskrift3{
+        color:black;
+        font-size:18x;
+    }
+    
+    #overskrift4{
+        color:black;
+        font-size:18px;
+    }
+
     .teksten {
         font-family: sans-serif;
         background: rgb(255, 213, 0);
@@ -323,19 +348,33 @@ img {
         "link link"
         "footer footer";
     }
-    #boks1 {
+
+    #boks1{
+        grid-area:boks1;
+        margin-right:5px;
         margin-bottom: 2%;
     }
-    #boks2 {
+    
+    #boks2{
+        grid-area: boks2;
+        margin-right:5px;
+        margin-bottom:1%;
+    }
+    
+    
+    #boks3{
+        grid-area: boks3;
         margin-right: 5px;
-        margin-bottom: 1%;
     }
-    #boks3 {
-        margin-right: 5px;
+    
+    footer{
+        grid-area:footer;
     }
-    #link {
-        max-width: 70ch;
-    }
+    
+       
+        #link {
+            max-width: 70ch;
+        }
     #innhold {
         background: rgb(255, 213, 0);
         background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
