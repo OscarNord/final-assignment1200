@@ -210,20 +210,17 @@ transition-property: background-color, color;
 
 #VisitPlaces .EtSted1 {
     display: flex;
-    justify-content: center;
     width: 90%;
 
 }
 
 #VisitPlaces .EtSted2 {
     display: flex;
-    justify-content: center;
     width: 90%;
 }
 
 #VisitPlaces .EtSted3 {
     display: flex;
-    justify-content: center;
     width: 90%;;
 }
 
@@ -239,7 +236,6 @@ transition-property: background-color, color;
     height: 500px;
     width: 40%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     background-color: turquoise;
     background-image: linear-gradient(rgba(255, 255, 255, 0.87),
@@ -251,7 +247,6 @@ transition-property: background-color, color;
     height: 500px;
     width: 40%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     background-color: turquoise;
     background-image: linear-gradient(rgba(255, 255, 255, 0.87),
@@ -263,7 +258,6 @@ transition-property: background-color, color;
     height: 500px;
     width: 40%;
     display: flex;
-    justify-content: center;
     flex-direction: column;
     background-color: turquoise;
     background-image: linear-gradient(rgba(255, 255, 255, 0.87),
@@ -487,14 +481,14 @@ font-weight: 200;
         margin-bottom: 130px;
         margin-top: 30px;
         margin-left: 20px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-    
-    }
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 85px 4px;
+        }
 
    .EtSted1 .Stedsinfo1 {
         height: 500px;
         width: 120%;
         padding: 27px;
+        padding-left: 40px;
         padding-right: 15px;
         margin-left: 0px;
         height: 500px auto;
@@ -503,7 +497,7 @@ font-weight: 200;
 
     .StedsBilde1 img {
         height: 554px;
-        width: 120%;
+        width: 145%;
         margin-right: 20px;
 
     }
@@ -514,7 +508,7 @@ font-weight: 200;
         margin-bottom: 130px;
         margin-top: 30px;
         margin-left: 20px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 85px 4px;
     
     
     }
@@ -530,7 +524,7 @@ font-weight: 200;
 
     .StedsBilde2 img {
         height: 554px;
-        width: 120%;
+        width: 145%;
         margin-right: 20px;
 
     }
@@ -540,7 +534,7 @@ font-weight: 200;
         margin-bottom: 130px;
         margin-top: 30px;
         margin-left: 20px;
-        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+        box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 85px 4px;
     
     }
 
@@ -555,7 +549,7 @@ font-weight: 200;
 
     .StedsBilde3 img {
         height: 554px;
-        width: 120%;
+        width: 145%;
         margin-right: 20px;
 
     }
