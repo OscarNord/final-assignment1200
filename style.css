@@ -29,6 +29,16 @@ body {
     font-size: 2vw;
 }
 
+.ImHERE {
+    font-size: larger;
+    font-weight: bold;
+}
+
+p {
+    margin: 0;
+    padding: 1%;
+}
+
 
 /*
     FOR FORSIDE:
@@ -221,11 +231,6 @@ body {
     margin-top: 10px;
     margin-right: 20px;
 }
-
-footer {
-    grid-area: footer;
-}
-
 .teksten>p {
     max-width: 70ch;
 }
@@ -261,21 +266,12 @@ h2 {
 footer {
     padding-top: 20px;
     background-color: whitesmoke;
+    grid-area: footer;
 }
 
 footer>ul {
     margin: 0;
     padding: 2%;
-}
-
-p {
-    margin: 0;
-    padding: 1%;
-}
-
-.ImHERE {
-    font-size: larger;
-    font-weight: bold;
 }
 
 img {
