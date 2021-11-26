@@ -28,7 +28,6 @@ body {
     color: #000;
     text-decoration: none;
     font-size: 2vw;
-    /* padding: 2%; */
 }
 
 #reflect_header {
@@ -197,12 +196,16 @@ h2 {
     display: flex;
     flex-direction: row;
     background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 50%, rgba(245, 245, 245, 1) 100%);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
     justify-content: space-between;
     padding-top: 5vh;
     padding-bottom: 5vh;
-    text-align: center;
+    text-align: left;
     grid-area: innhold;
+}
+
+#innhold>div {
+    padding: 3%;
 }
 
 #box1 {
@@ -285,7 +288,6 @@ img {
 
 @media only screen and (max-width:800px) {
     .navbar {
-        font-size: 1vh;
         align-items: stretch;
         flex-direction: column;
         text-align: center;
@@ -298,6 +300,11 @@ img {
     .navbar>a {
         padding: 2%;
         border: 1px solid;
+        font-size: 2.3vw;
+    }
+    .reflect-tekst {
+        margin: 0 10px;
+        grid-area: content;
     }
     .reflect-tekst {
         margin: 0 10px;
@@ -376,8 +383,6 @@ img {
             max-width: 70ch;
         }
     #innhold {
-        background: rgb(255, 213, 0);
-        background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
         flex-direction: column;
     }
     #header1 {
