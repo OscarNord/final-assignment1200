@@ -72,93 +72,115 @@ body {
     padding: 0;
     margin: 25px 10px 20px;
     border-radius: 5px;
-    grid-area: footer;
+    grid-area:footer;
 }
 
-#overskrift2 {
-    font-size: 20px;
-    color: black;
+#overskrift2{
+    font-size:20px;
+    color:black;
+    
 }
 
-#boks1>p {
+#boks1>p{
     padding-right: 40px;
 }
 
-#overskrift3 {
-    font-size: 20px;
-    color: black;
+#overskrift3{
+    font-size:20px;
+    color:black;
 }
 
-#overskrift4 {
-    font-size: 20px;
-    color: black;
+#overskrift4{
+    font-size:20px;
+    color:black;
     margin-bottom: 0%;
+
 }
 
-.kilder {
-    font-size: 16px;
+.kilder{
+    font-size:16px;
     margin-top: 5%;
     grid-area: kilder;
+
 }
 
-#referanser {
-    font-size: 16px;
+#referanser{
+    font-size:16px;
 }
 
-#link-info {
-    font-size: 16px;
-    margin-right: 2%;
+#link-info{
+    font-size:16px;
+    margin-right:2%;
 }
 
-.teksten {
-    font-family: sans-serif;
-    flex-direction: row;
-    justify-content: space-between;
-    background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
-    font-size: 15px;
-    margin: 0%;
-    padding: 1% 0;
-    padding-left: 2%;
-    display: grid;
-    grid-template-areas: "header header" "boks1 boks2" "boks1 boks2" "boks3 boks3" "boks3 boks3" "link kilder" "link kilder" "footer footer";
+
+.teksten{
+font-family: sans-serif;
+flex-direction: row;
+justify-content:space-between;
+background: rgb(255, 213, 0);
+background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
+font-size: 15px;
+margin: 0%;
+padding: 1% 0;
+padding-left: 2%;
+display:grid;
+grid-template-areas:
+"header header" 
+"boks1 boks2" 
+"boks1 boks2" 
+"boks3 boks3"
+"boks3 boks3" 
+"link kilder"
+"link kilder"
+"footer footer";
 }
 
-#boks1 {
-    grid-area: boks1;
+
+#boks1{
+    grid-area:boks1;
     border: 1px solid black;
     border-radius: 5px;
-    margin-right: 5%;
+    margin-right:5%;
 }
 
-#boks2 {
+#boks2{
     grid-area: boks2;
     border: 1px solid black;
     border-radius: 5px;
     margin-right: 20px;
+    
 }
 
-#boks3 {
+#boks3{
     grid-area: boks3;
     border: 1px solid black;
     border-radius: 5px;
     margin-top: 10px;
     margin-right: 20px;
+
 }
 
-footer {
-    grid-area: footer;
+
+
+footer{
+    grid-area:footer;
 }
 
 .teksten>p {
     max-width: 70ch;
 }
 
+
+
 #link {
-    font-size: 18px;
-    margin-top: 5%;
-    grid-area: link;
+   font-size: 18px;
+   margin-top:5%;
+   grid-area:link;
+
 }
+
+
 
 #overskrift {
     font-size: 25px;
@@ -198,6 +220,7 @@ h2 {
 
 #box1 {
     flex: 1;
+
 }
 
 #box2 {
@@ -276,48 +299,161 @@ img {
 
 @media only screen and (max-width:800px) {
     .navbar {
+        display: flex;
         font-size: 1vh;
+        margin: auto;
+        background-color: #FFD500;
         align-items: stretch;
+        /* justify-content: space-between; */
         flex-direction: column;
+        width: 100vw;
         text-align: center;
         height: initial;
         padding: 0;
+       
     }
     #reflect_nav {
         padding: 0;
     }
     .navbar>a {
+        color: #000;
+        text-decoration: none;
         padding: 2%;
         border: 1px solid;
+        font-size: 2.5vw;
+    }
+    .reflect-tekst {
+        margin: 0 10px;
+        grid-area: content;
     }
     #reflect-tekst_2 {
         margin-top: 2%;
+        grid-area: content2;
     }
     .div_reflect {
-        height: 100%;
+        display: grid;
+        grid-template-areas: "header" "content" "content2" "footer";
+    }
+    #reflect_footer {
+        grid-area: footer;
+    }
+    overskrift2{ 
+        color:black;
+        font-size:18px;
+    }
+
+    overskrift3{
+        color:black;
+        font-size:18x;
+    }
+    
+    overskrift4{
+        color:black;
+        font-size:18px;
     }
     .teksten {
+        font-family: sans-serif;
+        background: rgb(255, 213, 0);
+        background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
+        font-size: 15px;
+        margin: 0%;
+        padding: 1% 0;
+        padding-left: 2%;
         flex-direction: column;
+        display:grid;
+        grid-template-areas: 
+"header header" 
+"boks1 boks1" 
+"boks2 boks2" 
+"boks3 boks3"
+"boks3 boks3" 
+"kilder kilder"
+"link link"
+"footer footer";
     }
-    #boks1 {
-        margin-bottom: 2%;
+
+    
+    .kilder{
+        font-size:16px;
+        margin-top: 5%;
+        grid-area: kilder;
     }
-    #boks2 {
-        margin-right: 5px;
-        margin-bottom: 1%;
-    }
-    #boks3 {
-        margin-right: 5px;
+
+#boks1{
+    grid-area:boks1;
+    margin-right:5px;
+    margin-bottom: 2%;
+}
+
+#boks2{
+    grid-area: boks2;
+    margin-right:5px;
+    margin-bottom:1%;
+}
+
+
+#boks3{
+    grid-area: boks3;
+    margin-right: 5px;
+}
+
+footer{
+    grid-area:footer;
+}
+
+    .teksten>p {
+        max-width: 70ch;
     }
     #link {
         max-width: 70ch;
+    }
+    #overskrift {
+        font-size: 25px;
+    }
+    #overskrift {
+        font-size: 25px;
+    }
+    ul {
+        list-style: none;
+    }
+    header {
+        background-color: #FFD500;
     }
     #innhold {
         background: rgb(255, 213, 0);
         background: linear-gradient(180deg, rgba(255, 213, 0, 1) 60%, rgba(245, 245, 245, 1) 100%);
         flex-direction: column;
     }
+    h1,
+    h2 {
+        margin: 0;
+        padding: 1%;
+    }
+    footer {
+        padding-top: 20px;
+        background-color: whitesmoke;
+    }
+    footer>ul {
+        margin: 0;
+        padding: 2%;
+    }
+    p {
+        margin: 0;
+        padding: 1%;
+    }
+    .ImHERE {
+        font-size: larger;
+        font-weight: bold;
+    }
+    /* all css under her er bare for forsiden */
     #header1 {
+        background-image: url(/img1/p35.jpeg);
+        background-size: cover;
+        color: black;
+        text-align: center;
+        text-decoration: underline;
+        font-size: x-large;
+        background-position-y: center;
         height: 200px;
     }
 }
