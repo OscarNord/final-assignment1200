@@ -29,6 +29,51 @@ body {
     font-size: 2vw;
 }
 
+p {
+    margin: 0;
+    padding: 1%;
+}
+
+header {
+    background-color: #FFD500;
+    grid-area: header;
+    text-align: center;
+    font-size: 25px;
+}
+
+ul {
+    list-style: none;
+}
+
+h1,
+h2 {
+    margin: 0;
+    padding: 1%;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: whitesmoke;
+    grid-area: footer;
+}
+
+footer>ul {
+    margin: 0;
+    padding: 2%;
+}
+
+.ImHERE {
+    font-size: larger;
+    font-weight: bold;
+}
+
+img {
+    border-radius: 20px;
+    max-width: 40vw;
+    max-height: 10vw;
+    margin: auto;
+}
+
 
 /*
     FOR FORSIDE:
@@ -88,7 +133,9 @@ body {
 }
 
 
-/* Kode for refleksjons siden nedenfor */
+/* 
+    REFLECT
+*/
 
 #reflect_header {
     margin: 10px 10px 15px;
@@ -222,10 +269,6 @@ body {
     margin-right: 20px;
 }
 
-footer {
-    grid-area: footer;
-}
-
 .teksten>p {
     max-width: 70ch;
 }
@@ -239,50 +282,6 @@ footer {
 #overskrift {
     font-size: 25px;
     text-align: center;
-}
-
-header {
-    background-color: #FFD500;
-    grid-area: header;
-    text-align: center;
-    font-size: 25px;
-}
-
-ul {
-    list-style: none;
-}
-
-h1,
-h2 {
-    margin: 0;
-    padding: 1%;
-}
-
-footer {
-    padding-top: 20px;
-    background-color: whitesmoke;
-}
-
-footer>ul {
-    margin: 0;
-    padding: 2%;
-}
-
-p {
-    margin: 0;
-    padding: 1%;
-}
-
-.ImHERE {
-    font-size: larger;
-    font-weight: bold;
-}
-
-img {
-    border-radius: 20px;
-    max-width: 40vw;
-    max-height: 10vw;
-    margin: auto;
 }
 
 @media only screen and (max-width:800px) {
