@@ -1,13 +1,12 @@
+/*
+    FELLES-KODE:
+*/
+
 body {
     margin: 0;
     overflow-x: hidden;
     font-family: sans-serif;
 }
-
-
-/*
-    HERIFRA OG NED ER DET BARE FOR LAPTOP
-*/
 
 .navbar {
     display: flex;
@@ -30,7 +29,67 @@ body {
     font-size: 2vw;
 }
 
+
+/*
+    FOR FORSIDE:
+*/
+
+#header1 {
+    background-image: url(../img1/p35.jpeg);
+    background-size: cover;
+    color: black;
+    text-align: center;
+    font-size: x-large;
+    background-position-y: center;
+    height: 50vh;
+    grid-area: header;
+}
+
+#header1>div {
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border-radius: 10px;
+    text-decoration: underline;
+    margin-top: 25px;
+}
+
+#gridBox1 {
+    display: grid;
+    grid-template-areas: "header" "innhold" "footer";
+}
+
+#innhold {
+    display: flex;
+    flex-direction: row;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
+    justify-content: space-between;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    text-align: left;
+    grid-area: innhold;
+}
+
+#innhold>div {
+    padding: 3%;
+}
+
+#box1 {
+    flex: 1;
+}
+
+#box2 {
+    flex: 1;
+}
+
+#box3 {
+    flex: 1;
+}
+
+
 /* Kode for refleksjons siden nedenfor */
+
 #reflect_header {
     margin: 10px 10px 15px;
     padding: 15px 10px 0;
@@ -83,6 +142,23 @@ body {
 #boks1>p {
     padding-right: 40px;
 }
+
+
+/*
+    ACCESS:
+*/
+
+#innholdAccess {
+    display: flex;
+    background: rgb(255, 213, 0);
+    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
+    flex-direction: column;
+}
+
+
+/*
+    TOPICAL
+*/
 
 #overskrift3 {
     font-size: 20px;
@@ -168,49 +244,18 @@ footer {
 header {
     background-color: #FFD500;
     grid-area: header;
+    text-align: center;
+    font-size: 25px;
 }
 
 ul {
     list-style: none;
 }
 
-header {
-    background-color: #FFD500;
-    text-align: center;
-}
-
 h1,
 h2 {
     margin: 0;
     padding: 1%;
-}
-
-#innhold {
-    display: flex;
-    flex-direction: row;
-    background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
-    justify-content: space-between;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    text-align: left;
-    grid-area: innhold;
-}
-
-#innhold>div {
-    padding: 3%;
-}
-
-#box1 {
-    flex: 1;
-}
-
-#box2 {
-    flex: 1;
-}
-
-#box3 {
-    flex: 1;
 }
 
 footer {
@@ -233,45 +278,6 @@ p {
     font-weight: bold;
 }
 
-
-/* all css under her er bare for forsiden */
-
-#header1 {
-    background-image: url(../img1/p35.jpeg);
-    background-size: cover;
-    color: black;
-    text-align: center;
-    font-size: x-large;
-    background-position-y: center;
-    height: 50vh;
-    grid-area: header;
-}
-
-#header1>div {
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    display: inline-block;
-    border-radius: 10px;
-    text-decoration: underline;
-    margin-top: 25px;
-}
-
-#gridBox1 {
-    display: grid;
-    grid-template-areas: "header" "innhold" "footer";
-}
-
-#footer1 {
-    grid-area: footer;
-}
-
-#innholdAccess {
-    display: flex;
-    background: rgb(255, 213, 0);
-    background: linear-gradient(180deg, rgba(255, 213, 0, 1) 92%, rgba(245, 245, 245, 1) 100%);
-    flex-direction: column;
-}
-
 img {
     border-radius: 20px;
     max-width: 40vw;
@@ -280,6 +286,9 @@ img {
 }
 
 @media only screen and (max-width:800px) {
+    /*
+        FELLES
+    */
     .navbar {
         align-items: stretch;
         flex-direction: column;
@@ -293,8 +302,20 @@ img {
     .navbar>a {
         padding: 2%;
         border: 1px solid;
-        font-size: 2.3vw;
+        font-size: 2.7vw;
     }
+    /*
+        FORSIDE
+    */
+    #header1 {
+        height: 200px;
+    }
+    #innhold {
+        flex-direction: column;
+    }
+    /*
+        REFLECT
+    */
     .reflect-tekst {
         margin: 0 10px;
         grid-area: content;
@@ -313,22 +334,18 @@ img {
     #reflect_footer {
         grid-area: footer;
     }
-
-    #overskrift2{ 
-        color:black;
-        font-size:18px;
+    #overskrift2 {
+        color: black;
+        font-size: 18px;
     }
-
-    #overskrift3{
-        color:black;
-        font-size:18x;
+    #overskrift3 {
+        color: black;
+        font-size: 18x;
     }
-    
-    #overskrift4{
-        color:black;
-        font-size:18px;
+    #overskrift4 {
+        color: black;
+        font-size: 18px;
     }
-
     .teksten {
         font-family: sans-serif;
         background: rgb(255, 213, 0);
@@ -340,37 +357,24 @@ img {
         display: grid;
         grid-template-areas: "header header" "boks1 boks1" "boks2 boks2" "boks3 boks3" "boks3 boks3" "kilder kilder" "link link" "footer footer";
     }
-
-    #boks1{
-        grid-area:boks1;
-        margin-right:5px;
+    #boks1 {
+        grid-area: boks1;
+        margin-right: 5px;
         margin-bottom: 2%;
     }
-    
-    #boks2{
+    #boks2 {
         grid-area: boks2;
-        margin-right:5px;
-        margin-bottom:1%;
+        margin-right: 5px;
+        margin-bottom: 1%;
     }
-    
-    
-    #boks3{
+    #boks3 {
         grid-area: boks3;
         margin-right: 5px;
     }
-    
-    footer{
-        grid-area:footer;
+    footer {
+        grid-area: footer;
     }
-    
-       
-        #link {
-            max-width: 70ch;
-        }
-    #innhold {
-        flex-direction: column;
-    }
-    #header1 {
-        height: 200px;
+    #link {
+        max-width: 70ch;
     }
 }
